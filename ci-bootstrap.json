@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "controller_tag": "barbican-ci-v1",
+  "controller_tag": "barbican-ci-v2",
   "provider_repository": "Rob-Morris/barbican-admission-rehearsal",
   "provider_revision": "8908d3906de7cfa737e195826dc82321e538effc",
   "provider_script": "ci/provision-barbican.sh",
