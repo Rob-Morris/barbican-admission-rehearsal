@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "controller_tag": "barbican-ci-v1",
+  "provider_repository": "Rob-Morris/barbican-admission-rehearsal",
+  "provider_revision": "8908d3906de7cfa737e195826dc82321e538effc",
+  "provider_script": "ci/provision-barbican.sh",
+  "approved_repository": "Rob-Morris/barbican-admission-rehearsal",
+  "approved_revision": "4fb6fb208439fa7877bce91b61466d4350b0039e",
+  "review_id": "49ffd3d5c027bbc5669f58b174dd74c4b9fbe9f269417d35044cbaf7c5e1d68e"
+}
