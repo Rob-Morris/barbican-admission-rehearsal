@@ -1,0 +1,1043 @@
+{
+  "schema_version": 1,
+  "subject": {
+    "schema_version": 1,
+    "supplier": "https://static.rust-lang.org",
+    "release": "1.95.0",
+    "publication_date": "2026-04-16",
+    "authentication": {
+      "manifest_sha256": "821ff14e4c4a1cbe1e8915f35aff0a3fbbdf8d293ad48ab8f31e3b0440c581f9",
+      "signature_sha256": "3a675df488a0be0e110c99b8c944c2ff4b6a416f34a4862e600a8144e7152dc3",
+      "certificate_sha256": "e54b09a439647e006b4831eec9785cbaaf3e07ab371c3a6ee6a68e1bdb9fbc6b",
+      "primary_fingerprint": "108F66205EAEB0AAA8DD5E1C85AB96E6FA1BE5FE",
+      "signing_fingerprint": "108F66205EAEB0AAA8DD5E1C85AB96E6FA1BE5FE",
+      "verification_policy_sha256": "f732bf80b450c6ae7e7de40cc9138e318ca6f80e9b612294cc938de08dda09f5"
+    },
+    "host": "aarch64-apple-darwin",
+    "profile": "minimal",
+    "requested_components": [],
+    "requested_targets": [],
+    "archives": [
+      {
+        "package": "cargo",
+        "target": "aarch64-apple-darwin",
+        "component": "cargo",
+        "root": "cargo-1.95.0-aarch64-apple-darwin",
+        "encoding": "xz",
+        "url": "https://static.rust-lang.org/dist/2026-04-16/cargo-1.95.0-aarch64-apple-darwin.tar.xz",
+        "sha256": "6c2ffed8e1ac9cf4dc9e80f282a869a6b237a153e7c55cca039d33de29d80aaf"
+      },
+      {
+        "package": "rust-std",
+        "target": "aarch64-apple-darwin",
+        "component": "rust-std-aarch64-apple-darwin",
+        "root": "rust-std-1.95.0-aarch64-apple-darwin",
+        "encoding": "xz",
+        "url": "https://static.rust-lang.org/dist/2026-04-16/rust-std-1.95.0-aarch64-apple-darwin.tar.xz",
+        "sha256": "9b30089b0f767cb91b2190ffec55a9beeb2a21a1405d8da0f664d7e09d08e6d8"
+      },
+      {
+        "package": "rustc",
+        "target": "aarch64-apple-darwin",
+        "component": "rustc",
+        "root": "rustc-1.95.0-aarch64-apple-darwin",
+        "encoding": "xz",
+        "url": "https://static.rust-lang.org/dist/2026-04-16/rustc-1.95.0-aarch64-apple-darwin.tar.xz",
+        "sha256": "149e85a285b6eba58eb6c8bdf7deb1b93763890598e62cb635a712e3a8454f04"
+      }
+    ],
+    "host_inapplicable_profile_members": [
+      "rust-mingw"
+    ],
+    "mapping_version": "rust-installer-mapping-v1",
+    "mapping_sha256": "9271c6ee84cdfea57a4587fac45ed054c8c725eafbe18f1959c534da85dc0085"
+  },
+  "evidence": {
+    "schema_version": 2,
+    "subject_id": "19c04d7b6ca65a2906bafe1bc15bf8d8297c924958187588d322098ee35403a5",
+    "publication": {
+      "subject_id": "19c04d7b6ca65a2906bafe1bc15bf8d8297c924958187588d322098ee35403a5",
+      "authenticated_manifest_day": "2026-04-16",
+      "corroborated_days": [
+        "2026-04-16",
+        "2026-04-16"
+      ],
+      "source": {
+        "kind": "publication",
+        "scope": "distribution"
+      },
+      "source_content_sha256": "9fd92638e06a9fba0f3310e42f64d78b8d0b831a8ecd78dcf210149fb5f5e3de"
+    },
+    "observations": [
+      {
+        "source": {
+          "kind": "publication",
+          "scope": "distribution"
+        },
+        "location": "https://blog.rust-lang.org/2026/04/16/Rust-1.95.0/",
+        "provenance": "Official supplier/source-maintainer HTTPS publication; no binary-source correspondence or universal vulnerability coverage inferred",
+        "revision": "2026-04-16",
+        "content_sha256": "9fd92638e06a9fba0f3310e42f64d78b8d0b831a8ecd78dcf210149fb5f5e3de",
+        "snapshot": {
+          "path": "docs/dependency-reviews/toolchains/19c04d7b6ca65a2906bafe1bc15bf8d8297c924958187588d322098ee35403a5/sources/9fd92638e06a9fba0f3310e42f64d78b8d0b831a8ecd78dcf210149fb5f5e3de",
+          "sha256": "9fd92638e06a9fba0f3310e42f64d78b8d0b831a8ecd78dcf210149fb5f5e3de"
+        },
+        "status": "completed",
+        "coverage": "covered",
+        "coverage_rationale": "Exact official release announcement retrieved at the manifest publication-day URL; original signed-manifest and signature day also bound conservatively.",
+        "checked_at": 1794539988,
+        "expires_at": null
+      },
+      {
+        "source": {
+          "kind": "release-notes",
+          "scope": "distribution"
+        },
+        "location": "https://blog.rust-lang.org/2026/04/16/Rust-1.95.0/",
+        "provenance": "Official supplier/source-maintainer HTTPS publication; no binary-source correspondence or universal vulnerability coverage inferred",
+        "revision": "2026-04-16",
+        "content_sha256": "9fd92638e06a9fba0f3310e42f64d78b8d0b831a8ecd78dcf210149fb5f5e3de",
+        "snapshot": {
+          "path": "docs/dependency-reviews/toolchains/19c04d7b6ca65a2906bafe1bc15bf8d8297c924958187588d322098ee35403a5/sources/9fd92638e06a9fba0f3310e42f64d78b8d0b831a8ecd78dcf210149fb5f5e3de",
+          "sha256": "9fd92638e06a9fba0f3310e42f64d78b8d0b831a8ecd78dcf210149fb5f5e3de"
+        },
+        "status": "completed",
+        "coverage": "residual-unknown",
+        "coverage_rationale": "Official release notes are retained for explicit human compatibility/security review; notes are not universal vulnerability coverage.",
+        "checked_at": 1794539988,
+        "expires_at": null
+      },
+      {
+        "source": {
+          "kind": "security-announcements",
+          "scope": "distribution"
+        },
+        "location": "https://blog.rust-lang.org/",
+        "provenance": "Official supplier/source-maintainer HTTPS publication; no binary-source correspondence or universal vulnerability coverage inferred",
+        "revision": "current official announcement index and Cargo advisories",
+        "content_sha256": "19b76f7ab9195ed84dfe701cad92f4db78661ae0e35288b4b8d1c958e2fe3ad2",
+        "snapshot": {
+          "path": "docs/dependency-reviews/toolchains/19c04d7b6ca65a2906bafe1bc15bf8d8297c924958187588d322098ee35403a5/sources/19b76f7ab9195ed84dfe701cad92f4db78661ae0e35288b4b8d1c958e2fe3ad2",
+          "sha256": "19b76f7ab9195ed84dfe701cad92f4db78661ae0e35288b4b8d1c958e2fe3ad2"
+        },
+        "status": "completed",
+        "coverage": "residual-unknown",
+        "coverage_rationale": "Current official announcement index, Rust security scope and published Cargo advisories are retained. Exact affected-range/applicability and historical completeness require explicit human assessment; source inclusion is not execution reachability.",
+        "checked_at": 1794539988,
+        "expires_at": null
+      },
+      {
+        "source": {
+          "kind": "authentication",
+          "scope": "distribution"
+        },
+        "location": "https://static.rust-lang.org/",
+        "provenance": "Official supplier/source-maintainer HTTPS publication; no binary-source correspondence or universal vulnerability coverage inferred",
+        "revision": "qualified current public-only verification",
+        "content_sha256": "c23ab0dbd056e1f184cc20e5f3afc5daf5b1dbfb1938acb57149417e3c0d5a32",
+        "snapshot": {
+          "path": "docs/dependency-reviews/toolchains/19c04d7b6ca65a2906bafe1bc15bf8d8297c924958187588d322098ee35403a5/sources/c23ab0dbd056e1f184cc20e5f3afc5daf5b1dbfb1938acb57149417e3c0d5a32",
+          "sha256": "c23ab0dbd056e1f184cc20e5f3afc5daf5b1dbfb1938acb57149417e3c0d5a32"
+        },
+        "status": "completed",
+        "coverage": "covered",
+        "coverage_rationale": "Original exact manifest, detached signature and approved certificate identities verified; current nonrevocation cannot be proved and retained authenticated adverse knowledge blocks.",
+        "checked_at": 1794539988,
+        "expires_at": null
+      },
+      {
+        "source": {
+          "kind": "source-identity",
+          "scope": "cargo/aarch64-apple-darwin"
+        },
+        "location": "https://github.com/rust-lang/cargo",
+        "provenance": "Official supplier/source-maintainer HTTPS publication; no binary-source correspondence or universal vulnerability coverage inferred",
+        "revision": "f2d3ce0bd7f24a49f8f72d9000448f8838c4e850",
+        "content_sha256": "32c30ed5d22ba086ab5f2bf98b2288b6fb4327e5040fec0add04669e99af3643",
+        "snapshot": {
+          "path": "docs/dependency-reviews/toolchains/19c04d7b6ca65a2906bafe1bc15bf8d8297c924958187588d322098ee35403a5/sources/32c30ed5d22ba086ab5f2bf98b2288b6fb4327e5040fec0add04669e99af3643",
+          "sha256": "32c30ed5d22ba086ab5f2bf98b2288b6fb4327e5040fec0add04669e99af3643"
+        },
+        "status": "completed",
+        "coverage": "residual-unknown",
+        "coverage_rationale": "Signed Cargo package version matched to its independently resolved Rust-tree Cargo gitlink and Cargo source inventory. The represented source inventory includes optional/dev/build and other-host packages. Selected-host binary inclusion, reachability, complete native/LLVM dependency coverage and reproducible source-to-binary correspondence remain unproved; official security announcements and all represented source findings require explicit human assessment.",
+        "checked_at": 1794539988,
+        "expires_at": null
+      },
+      {
+        "source": {
+          "kind": "source-identity",
+          "scope": "rust-std/aarch64-apple-darwin"
+        },
+        "location": "https://github.com/rust-lang/rust",
+        "provenance": "Official supplier/source-maintainer HTTPS publication; no binary-source correspondence or universal vulnerability coverage inferred",
+        "revision": "59807616e1fa2540724bfbac14d7976d7e4a3860",
+        "content_sha256": "6741608ae34e8b43b8f3e8aa7280bff06f6b3e87ce9020965a5c6e8c2f36d426",
+        "snapshot": {
+          "path": "docs/dependency-reviews/toolchains/19c04d7b6ca65a2906bafe1bc15bf8d8297c924958187588d322098ee35403a5/sources/6741608ae34e8b43b8f3e8aa7280bff06f6b3e87ce9020965a5c6e8c2f36d426",
+          "sha256": "6741608ae34e8b43b8f3e8aa7280bff06f6b3e87ce9020965a5c6e8c2f36d426"
+        },
+        "status": "completed",
+        "coverage": "residual-unknown",
+        "coverage_rationale": "Signed Rust tree's std package manifest matched to the separate library source inventory. The represented source inventory includes optional/dev/build and other-host packages. Selected-host binary inclusion, reachability, complete native/LLVM dependency coverage and reproducible source-to-binary correspondence remain unproved; official security announcements and all represented source findings require explicit human assessment.",
+        "checked_at": 1794539988,
+        "expires_at": null
+      },
+      {
+        "source": {
+          "kind": "source-identity",
+          "scope": "rustc/aarch64-apple-darwin"
+        },
+        "location": "https://github.com/rust-lang/rust",
+        "provenance": "Official supplier/source-maintainer HTTPS publication; no binary-source correspondence or universal vulnerability coverage inferred",
+        "revision": "59807616e1fa2540724bfbac14d7976d7e4a3860",
+        "content_sha256": "b0785cd87661c07263dbea52530ff9717fc7628c3e4cc9cad4658567cb59d493",
+        "snapshot": {
+          "path": "docs/dependency-reviews/toolchains/19c04d7b6ca65a2906bafe1bc15bf8d8297c924958187588d322098ee35403a5/sources/b0785cd87661c07263dbea52530ff9717fc7628c3e4cc9cad4658567cb59d493",
+          "sha256": "b0785cd87661c07263dbea52530ff9717fc7628c3e4cc9cad4658567cb59d493"
+        },
+        "status": "completed",
+        "coverage": "residual-unknown",
+        "coverage_rationale": "Rust-tree compiler and rustdoc package manifests matched to the Rust-root source inventory; rustdoc is shipped with rustc. The represented source inventory includes optional/dev/build and other-host packages. Selected-host binary inclusion, reachability, complete native/LLVM dependency coverage and reproducible source-to-binary correspondence remain unproved; official security announcements and all represented source findings require explicit human assessment.",
+        "checked_at": 1794539988,
+        "expires_at": null
+      },
+      {
+        "source": {
+          "kind": "advisories",
+          "scope": "cargo/aarch64-apple-darwin"
+        },
+        "location": "https://codeload.github.com/RustSec/advisory-db/tar.gz/af7b3ec33460b8e2de8d422e16d628518891a519",
+        "provenance": "Official supplier/source-maintainer HTTPS publication; no binary-source correspondence or universal vulnerability coverage inferred",
+        "revision": "af7b3ec33460b8e2de8d422e16d628518891a519",
+        "content_sha256": "9063bca1f9337bb085c3e9fcd0c3978f5422de9fa57e70e922510232913f6141",
+        "snapshot": {
+          "path": "docs/dependency-reviews/toolchains/19c04d7b6ca65a2906bafe1bc15bf8d8297c924958187588d322098ee35403a5/sources/9063bca1f9337bb085c3e9fcd0c3978f5422de9fa57e70e922510232913f6141",
+          "sha256": "9063bca1f9337bb085c3e9fcd0c3978f5422de9fa57e70e922510232913f6141"
+        },
+        "status": "completed",
+        "coverage": "residual-unknown",
+        "coverage_rationale": "Complete bounded exact-commit RustSec crates/Rust corpus inspected against separate represented source locks; source matches retained as findings. Optional/dev/host/build inclusion, native LLVM coverage and binary reachability remain unknown; official security announcements are separate evidence.",
+        "checked_at": 1794539988,
+        "expires_at": null
+      },
+      {
+        "source": {
+          "kind": "advisories",
+          "scope": "rust-std/aarch64-apple-darwin"
+        },
+        "location": "https://codeload.github.com/RustSec/advisory-db/tar.gz/af7b3ec33460b8e2de8d422e16d628518891a519",
+        "provenance": "Official supplier/source-maintainer HTTPS publication; no binary-source correspondence or universal vulnerability coverage inferred",
+        "revision": "af7b3ec33460b8e2de8d422e16d628518891a519",
+        "content_sha256": "9063bca1f9337bb085c3e9fcd0c3978f5422de9fa57e70e922510232913f6141",
+        "snapshot": {
+          "path": "docs/dependency-reviews/toolchains/19c04d7b6ca65a2906bafe1bc15bf8d8297c924958187588d322098ee35403a5/sources/9063bca1f9337bb085c3e9fcd0c3978f5422de9fa57e70e922510232913f6141",
+          "sha256": "9063bca1f9337bb085c3e9fcd0c3978f5422de9fa57e70e922510232913f6141"
+        },
+        "status": "completed",
+        "coverage": "residual-unknown",
+        "coverage_rationale": "Complete bounded exact-commit RustSec crates/Rust corpus inspected against separate represented source locks; source matches retained as findings. Optional/dev/host/build inclusion, native LLVM coverage and binary reachability remain unknown; official security announcements are separate evidence.",
+        "checked_at": 1794539988,
+        "expires_at": null
+      },
+      {
+        "source": {
+          "kind": "advisories",
+          "scope": "rustc/aarch64-apple-darwin"
+        },
+        "location": "https://codeload.github.com/RustSec/advisory-db/tar.gz/af7b3ec33460b8e2de8d422e16d628518891a519",
+        "provenance": "Official supplier/source-maintainer HTTPS publication; no binary-source correspondence or universal vulnerability coverage inferred",
+        "revision": "af7b3ec33460b8e2de8d422e16d628518891a519",
+        "content_sha256": "9063bca1f9337bb085c3e9fcd0c3978f5422de9fa57e70e922510232913f6141",
+        "snapshot": {
+          "path": "docs/dependency-reviews/toolchains/19c04d7b6ca65a2906bafe1bc15bf8d8297c924958187588d322098ee35403a5/sources/9063bca1f9337bb085c3e9fcd0c3978f5422de9fa57e70e922510232913f6141",
+          "sha256": "9063bca1f9337bb085c3e9fcd0c3978f5422de9fa57e70e922510232913f6141"
+        },
+        "status": "completed",
+        "coverage": "residual-unknown",
+        "coverage_rationale": "Complete bounded exact-commit RustSec crates/Rust corpus inspected against separate represented source locks; source matches retained as findings. Optional/dev/host/build inclusion, native LLVM coverage and binary reachability remain unknown; official security announcements are separate evidence.",
+        "checked_at": 1794539988,
+        "expires_at": null
+      }
+    ],
+    "findings": [
+      {
+        "id": "RUSTSEC-2025-0119/unmaintained/number_prefix@0.4.0/rustc/aarch64-apple-darwin",
+        "source": {
+          "kind": "advisories",
+          "scope": "rustc/aarch64-apple-darwin"
+        },
+        "change": "unknown",
+        "exposure": "unknown",
+        "rationale": "unmaintained: source corpus contains number_prefix@0.4.0 in the affected stable-version range. Initial admission has no accepted baseline. RustSec architecture [], OS [], function constraints {}; selected-host compiled inclusion and reachability are unproved and require explicit assessment. RustSec rust/std, rust/rustdoc and rust/cargo use distribution Rust release versions; GitHub Cargo package advisories use Cargo package 0.x versions, distinct from displayed Cargo 1.x versions."
+      },
+      {
+        "id": "RUSTSEC-2025-0141/unmaintained/bincode@1.3.3/rustc/aarch64-apple-darwin",
+        "source": {
+          "kind": "advisories",
+          "scope": "rustc/aarch64-apple-darwin"
+        },
+        "change": "unknown",
+        "exposure": "unknown",
+        "rationale": "unmaintained: source corpus contains bincode@1.3.3 in the affected stable-version range. Initial admission has no accepted baseline. RustSec architecture [], OS [], function constraints {}; selected-host compiled inclusion and reachability are unproved and require explicit assessment. RustSec rust/std, rust/rustdoc and rust/cargo use distribution Rust release versions; GitHub Cargo package advisories use Cargo package 0.x versions, distinct from displayed Cargo 1.x versions."
+      },
+      {
+        "id": "RUSTSEC-2026-0008/unsound/git2@0.20.2/rustc/aarch64-apple-darwin",
+        "source": {
+          "kind": "advisories",
+          "scope": "rustc/aarch64-apple-darwin"
+        },
+        "change": "unknown",
+        "exposure": "unknown",
+        "rationale": "unsound: source corpus contains git2@0.20.2 in the affected stable-version range. Initial admission has no accepted baseline. RustSec architecture [], OS [], function constraints {}; selected-host compiled inclusion and reachability are unproved and require explicit assessment. RustSec rust/std, rust/rustdoc and rust/cargo use distribution Rust release versions; GitHub Cargo package advisories use Cargo package 0.x versions, distinct from displayed Cargo 1.x versions."
+      },
+      {
+        "id": "RUSTSEC-2026-0049/vulnerability/rustls-webpki@0.103.9/cargo/aarch64-apple-darwin",
+        "source": {
+          "kind": "advisories",
+          "scope": "cargo/aarch64-apple-darwin"
+        },
+        "change": "unknown",
+        "exposure": "unknown",
+        "rationale": "vulnerability: source corpus contains rustls-webpki@0.103.9 in the affected stable-version range. Initial admission has no accepted baseline. RustSec architecture [], OS [], function constraints {}; selected-host compiled inclusion and reachability are unproved and require explicit assessment. RustSec rust/std, rust/rustdoc and rust/cargo use distribution Rust release versions; GitHub Cargo package advisories use Cargo package 0.x versions, distinct from displayed Cargo 1.x versions."
+      },
+      {
+        "id": "RUSTSEC-2026-0067/vulnerability/tar@0.4.44/rustc/aarch64-apple-darwin",
+        "source": {
+          "kind": "advisories",
+          "scope": "rustc/aarch64-apple-darwin"
+        },
+        "change": "unknown",
+        "exposure": "unknown",
+        "rationale": "vulnerability: source corpus contains tar@0.4.44 in the affected stable-version range. Initial admission has no accepted baseline. RustSec architecture [], OS [], function constraints {\"tar::Entry::unpack\": [\"< 0.4.45\"], \"tar::Entry::unpack_in\": [\"< 0.4.45\"]}; selected-host compiled inclusion and reachability are unproved and require explicit assessment. RustSec rust/std, rust/rustdoc and rust/cargo use distribution Rust release versions; GitHub Cargo package advisories use Cargo package 0.x versions, distinct from displayed Cargo 1.x versions."
+      },
+      {
+        "id": "RUSTSEC-2026-0068/vulnerability/tar@0.4.44/rustc/aarch64-apple-darwin",
+        "source": {
+          "kind": "advisories",
+          "scope": "rustc/aarch64-apple-darwin"
+        },
+        "change": "unknown",
+        "exposure": "unknown",
+        "rationale": "vulnerability: source corpus contains tar@0.4.44 in the affected stable-version range. Initial admission has no accepted baseline. RustSec architecture [], OS [], function constraints {}; selected-host compiled inclusion and reachability are unproved and require explicit assessment. RustSec rust/std, rust/rustdoc and rust/cargo use distribution Rust release versions; GitHub Cargo package advisories use Cargo package 0.x versions, distinct from displayed Cargo 1.x versions."
+      },
+      {
+        "id": "RUSTSEC-2026-0097/unsound/rand@0.8.5/rustc/aarch64-apple-darwin",
+        "source": {
+          "kind": "advisories",
+          "scope": "rustc/aarch64-apple-darwin"
+        },
+        "change": "unknown",
+        "exposure": "unknown",
+        "rationale": "unsound: source corpus contains rand@0.8.5 in the affected stable-version range. Initial admission has no accepted baseline. RustSec architecture [], OS [], function constraints {\"rand::rng\": [\">= 0.9.0\"], \"rand::thread_rng\": [\"< 0.10.0, >= 0.7.0\"]}; selected-host compiled inclusion and reachability are unproved and require explicit assessment. RustSec rust/std, rust/rustdoc and rust/cargo use distribution Rust release versions; GitHub Cargo package advisories use Cargo package 0.x versions, distinct from displayed Cargo 1.x versions."
+      },
+      {
+        "id": "RUSTSEC-2026-0097/unsound/rand@0.9.2/cargo/aarch64-apple-darwin",
+        "source": {
+          "kind": "advisories",
+          "scope": "cargo/aarch64-apple-darwin"
+        },
+        "change": "unknown",
+        "exposure": "unknown",
+        "rationale": "unsound: source corpus contains rand@0.9.2 in the affected stable-version range. Initial admission has no accepted baseline. RustSec architecture [], OS [], function constraints {\"rand::rng\": [\">= 0.9.0\"], \"rand::thread_rng\": [\"< 0.10.0, >= 0.7.0\"]}; selected-host compiled inclusion and reachability are unproved and require explicit assessment. RustSec rust/std, rust/rustdoc and rust/cargo use distribution Rust release versions; GitHub Cargo package advisories use Cargo package 0.x versions, distinct from displayed Cargo 1.x versions."
+      },
+      {
+        "id": "RUSTSEC-2026-0097/unsound/rand@0.9.2/rust-std/aarch64-apple-darwin",
+        "source": {
+          "kind": "advisories",
+          "scope": "rust-std/aarch64-apple-darwin"
+        },
+        "change": "unknown",
+        "exposure": "unknown",
+        "rationale": "unsound: source corpus contains rand@0.9.2 in the affected stable-version range. Initial admission has no accepted baseline. RustSec architecture [], OS [], function constraints {\"rand::rng\": [\">= 0.9.0\"], \"rand::thread_rng\": [\"< 0.10.0, >= 0.7.0\"]}; selected-host compiled inclusion and reachability are unproved and require explicit assessment. RustSec rust/std, rust/rustdoc and rust/cargo use distribution Rust release versions; GitHub Cargo package advisories use Cargo package 0.x versions, distinct from displayed Cargo 1.x versions."
+      },
+      {
+        "id": "RUSTSEC-2026-0097/unsound/rand@0.9.2/rustc/aarch64-apple-darwin",
+        "source": {
+          "kind": "advisories",
+          "scope": "rustc/aarch64-apple-darwin"
+        },
+        "change": "unknown",
+        "exposure": "unknown",
+        "rationale": "unsound: source corpus contains rand@0.9.2 in the affected stable-version range. Initial admission has no accepted baseline. RustSec architecture [], OS [], function constraints {\"rand::rng\": [\">= 0.9.0\"], \"rand::thread_rng\": [\"< 0.10.0, >= 0.7.0\"]}; selected-host compiled inclusion and reachability are unproved and require explicit assessment. RustSec rust/std, rust/rustdoc and rust/cargo use distribution Rust release versions; GitHub Cargo package advisories use Cargo package 0.x versions, distinct from displayed Cargo 1.x versions."
+      },
+      {
+        "id": "RUSTSEC-2026-0098/vulnerability/rustls-webpki@0.103.9/cargo/aarch64-apple-darwin",
+        "source": {
+          "kind": "advisories",
+          "scope": "cargo/aarch64-apple-darwin"
+        },
+        "change": "unknown",
+        "exposure": "unknown",
+        "rationale": "vulnerability: source corpus contains rustls-webpki@0.103.9 in the affected stable-version range. Initial admission has no accepted baseline. RustSec architecture [], OS [], function constraints {}; selected-host compiled inclusion and reachability are unproved and require explicit assessment. RustSec rust/std, rust/rustdoc and rust/cargo use distribution Rust release versions; GitHub Cargo package advisories use Cargo package 0.x versions, distinct from displayed Cargo 1.x versions."
+      },
+      {
+        "id": "RUSTSEC-2026-0099/vulnerability/rustls-webpki@0.103.9/cargo/aarch64-apple-darwin",
+        "source": {
+          "kind": "advisories",
+          "scope": "cargo/aarch64-apple-darwin"
+        },
+        "change": "unknown",
+        "exposure": "unknown",
+        "rationale": "vulnerability: source corpus contains rustls-webpki@0.103.9 in the affected stable-version range. Initial admission has no accepted baseline. RustSec architecture [], OS [], function constraints {}; selected-host compiled inclusion and reachability are unproved and require explicit assessment. RustSec rust/std, rust/rustdoc and rust/cargo use distribution Rust release versions; GitHub Cargo package advisories use Cargo package 0.x versions, distinct from displayed Cargo 1.x versions."
+      },
+      {
+        "id": "RUSTSEC-2026-0103/vulnerability/thin-vec@0.2.14/rustc/aarch64-apple-darwin",
+        "source": {
+          "kind": "advisories",
+          "scope": "rustc/aarch64-apple-darwin"
+        },
+        "change": "unknown",
+        "exposure": "unknown",
+        "rationale": "vulnerability: source corpus contains thin-vec@0.2.14 in the affected stable-version range. Initial admission has no accepted baseline. RustSec architecture [], OS [], function constraints {}; selected-host compiled inclusion and reachability are unproved and require explicit assessment. RustSec rust/std, rust/rustdoc and rust/cargo use distribution Rust release versions; GitHub Cargo package advisories use Cargo package 0.x versions, distinct from displayed Cargo 1.x versions."
+      },
+      {
+        "id": "RUSTSEC-2026-0104/vulnerability/rustls-webpki@0.103.9/cargo/aarch64-apple-darwin",
+        "source": {
+          "kind": "advisories",
+          "scope": "cargo/aarch64-apple-darwin"
+        },
+        "change": "unknown",
+        "exposure": "unknown",
+        "rationale": "vulnerability: source corpus contains rustls-webpki@0.103.9 in the affected stable-version range. Initial admission has no accepted baseline. RustSec architecture [], OS [], function constraints {}; selected-host compiled inclusion and reachability are unproved and require explicit assessment. RustSec rust/std, rust/rustdoc and rust/cargo use distribution Rust release versions; GitHub Cargo package advisories use Cargo package 0.x versions, distinct from displayed Cargo 1.x versions."
+      },
+      {
+        "id": "RUSTSEC-2026-0183/unsound/git2@0.20.2/rustc/aarch64-apple-darwin",
+        "source": {
+          "kind": "advisories",
+          "scope": "rustc/aarch64-apple-darwin"
+        },
+        "change": "unknown",
+        "exposure": "unknown",
+        "rationale": "unsound: source corpus contains git2@0.20.2 in the affected stable-version range. Initial admission has no accepted baseline. RustSec architecture [], OS [], function constraints {}; selected-host compiled inclusion and reachability are unproved and require explicit assessment. RustSec rust/std, rust/rustdoc and rust/cargo use distribution Rust release versions; GitHub Cargo package advisories use Cargo package 0.x versions, distinct from displayed Cargo 1.x versions."
+      },
+      {
+        "id": "RUSTSEC-2026-0183/unsound/git2@0.20.4/cargo/aarch64-apple-darwin",
+        "source": {
+          "kind": "advisories",
+          "scope": "cargo/aarch64-apple-darwin"
+        },
+        "change": "unknown",
+        "exposure": "unknown",
+        "rationale": "unsound: source corpus contains git2@0.20.4 in the affected stable-version range. Initial admission has no accepted baseline. RustSec architecture [], OS [], function constraints {}; selected-host compiled inclusion and reachability are unproved and require explicit assessment. RustSec rust/std, rust/rustdoc and rust/cargo use distribution Rust release versions; GitHub Cargo package advisories use Cargo package 0.x versions, distinct from displayed Cargo 1.x versions."
+      },
+      {
+        "id": "RUSTSEC-2026-0184/unsound/git2@0.20.2/rustc/aarch64-apple-darwin",
+        "source": {
+          "kind": "advisories",
+          "scope": "rustc/aarch64-apple-darwin"
+        },
+        "change": "unknown",
+        "exposure": "unknown",
+        "rationale": "unsound: source corpus contains git2@0.20.2 in the affected stable-version range. Initial admission has no accepted baseline. RustSec architecture [], OS [], function constraints {}; selected-host compiled inclusion and reachability are unproved and require explicit assessment. RustSec rust/std, rust/rustdoc and rust/cargo use distribution Rust release versions; GitHub Cargo package advisories use Cargo package 0.x versions, distinct from displayed Cargo 1.x versions."
+      },
+      {
+        "id": "RUSTSEC-2026-0184/unsound/git2@0.20.4/cargo/aarch64-apple-darwin",
+        "source": {
+          "kind": "advisories",
+          "scope": "cargo/aarch64-apple-darwin"
+        },
+        "change": "unknown",
+        "exposure": "unknown",
+        "rationale": "unsound: source corpus contains git2@0.20.4 in the affected stable-version range. Initial admission has no accepted baseline. RustSec architecture [], OS [], function constraints {}; selected-host compiled inclusion and reachability are unproved and require explicit assessment. RustSec rust/std, rust/rustdoc and rust/cargo use distribution Rust release versions; GitHub Cargo package advisories use Cargo package 0.x versions, distinct from displayed Cargo 1.x versions."
+      },
+      {
+        "id": "RUSTSEC-2026-0186/unsound/memmap2@0.2.3/rustc/aarch64-apple-darwin",
+        "source": {
+          "kind": "advisories",
+          "scope": "rustc/aarch64-apple-darwin"
+        },
+        "change": "unknown",
+        "exposure": "unknown",
+        "rationale": "unsound: source corpus contains memmap2@0.2.3 in the affected stable-version range. Initial admission has no accepted baseline. RustSec architecture [], OS [], function constraints {\"memmap2::Mmap::advise_range\": [\">= 0.5.9\", \"< 0.9.11\"], \"memmap2::Mmap::unchecked_advise_range\": [\">= 0.8.0\", \"< 0.9.11\"], \"memmap2::MmapMut::advise_range\": [\">= 0.5.9\", \"< 0.9.11\"], \"memmap2::MmapMut::flush_async_range\": [\"< 0.9.11\"], \"memmap2::MmapMut::flush_range\": [\"< 0.9.11\"], \"memmap2::MmapMut::unchecked_advise_range\": [\">= 0.8.0\", \"< 0.9.11\"]}; selected-host compiled inclusion and reachability are unproved and require explicit assessment. RustSec rust/std, rust/rustdoc and rust/cargo use distribution Rust release versions; GitHub Cargo package advisories use Cargo package 0.x versions, distinct from displayed Cargo 1.x versions."
+      },
+      {
+        "id": "RUSTSEC-2026-0186/unsound/memmap2@0.9.9/cargo/aarch64-apple-darwin",
+        "source": {
+          "kind": "advisories",
+          "scope": "cargo/aarch64-apple-darwin"
+        },
+        "change": "unknown",
+        "exposure": "unknown",
+        "rationale": "unsound: source corpus contains memmap2@0.9.9 in the affected stable-version range. Initial admission has no accepted baseline. RustSec architecture [], OS [], function constraints {\"memmap2::Mmap::advise_range\": [\">= 0.5.9\", \"< 0.9.11\"], \"memmap2::Mmap::unchecked_advise_range\": [\">= 0.8.0\", \"< 0.9.11\"], \"memmap2::MmapMut::advise_range\": [\">= 0.5.9\", \"< 0.9.11\"], \"memmap2::MmapMut::flush_async_range\": [\"< 0.9.11\"], \"memmap2::MmapMut::flush_range\": [\"< 0.9.11\"], \"memmap2::MmapMut::unchecked_advise_range\": [\">= 0.8.0\", \"< 0.9.11\"]}; selected-host compiled inclusion and reachability are unproved and require explicit assessment. RustSec rust/std, rust/rustdoc and rust/cargo use distribution Rust release versions; GitHub Cargo package advisories use Cargo package 0.x versions, distinct from displayed Cargo 1.x versions."
+      },
+      {
+        "id": "RUSTSEC-2026-0190/unsound/anyhow@1.0.100/cargo/aarch64-apple-darwin",
+        "source": {
+          "kind": "advisories",
+          "scope": "cargo/aarch64-apple-darwin"
+        },
+        "change": "unknown",
+        "exposure": "unknown",
+        "rationale": "unsound: source corpus contains anyhow@1.0.100 in the affected stable-version range. Initial admission has no accepted baseline. RustSec architecture [], OS [], function constraints {\"anyhow::Error::downcast_mut\": [\"< 1.0.103\"]}; selected-host compiled inclusion and reachability are unproved and require explicit assessment. RustSec rust/std, rust/rustdoc and rust/cargo use distribution Rust release versions; GitHub Cargo package advisories use Cargo package 0.x versions, distinct from displayed Cargo 1.x versions."
+      },
+      {
+        "id": "RUSTSEC-2026-0190/unsound/anyhow@1.0.100/rustc/aarch64-apple-darwin",
+        "source": {
+          "kind": "advisories",
+          "scope": "rustc/aarch64-apple-darwin"
+        },
+        "change": "unknown",
+        "exposure": "unknown",
+        "rationale": "unsound: source corpus contains anyhow@1.0.100 in the affected stable-version range. Initial admission has no accepted baseline. RustSec architecture [], OS [], function constraints {\"anyhow::Error::downcast_mut\": [\"< 1.0.103\"]}; selected-host compiled inclusion and reachability are unproved and require explicit assessment. RustSec rust/std, rust/rustdoc and rust/cargo use distribution Rust release versions; GitHub Cargo package advisories use Cargo package 0.x versions, distinct from displayed Cargo 1.x versions."
+      },
+      {
+        "id": "RUSTSEC-2026-0202/unsound/cxx@1.0.188/rustc/aarch64-apple-darwin",
+        "source": {
+          "kind": "advisories",
+          "scope": "rustc/aarch64-apple-darwin"
+        },
+        "change": "unknown",
+        "exposure": "unknown",
+        "rationale": "unsound: source corpus contains cxx@1.0.188 in the affected stable-version range. Initial admission has no accepted baseline. RustSec architecture [], OS [], function constraints {\"cxx::let_cxx_string\": [\"< 1.0.195\"]}; selected-host compiled inclusion and reachability are unproved and require explicit assessment. RustSec rust/std, rust/rustdoc and rust/cargo use distribution Rust release versions; GitHub Cargo package advisories use Cargo package 0.x versions, distinct from displayed Cargo 1.x versions."
+      },
+      {
+        "id": "RUSTSEC-2026-0204/vulnerability/crossbeam-epoch@0.9.18/cargo/aarch64-apple-darwin",
+        "source": {
+          "kind": "advisories",
+          "scope": "cargo/aarch64-apple-darwin"
+        },
+        "change": "unknown",
+        "exposure": "unknown",
+        "rationale": "vulnerability: source corpus contains crossbeam-epoch@0.9.18 in the affected stable-version range. Initial admission has no accepted baseline. RustSec architecture [], OS [], function constraints {}; selected-host compiled inclusion and reachability are unproved and require explicit assessment. RustSec rust/std, rust/rustdoc and rust/cargo use distribution Rust release versions; GitHub Cargo package advisories use Cargo package 0.x versions, distinct from displayed Cargo 1.x versions."
+      },
+      {
+        "id": "RUSTSEC-2026-0204/vulnerability/crossbeam-epoch@0.9.18/rustc/aarch64-apple-darwin",
+        "source": {
+          "kind": "advisories",
+          "scope": "rustc/aarch64-apple-darwin"
+        },
+        "change": "unknown",
+        "exposure": "unknown",
+        "rationale": "vulnerability: source corpus contains crossbeam-epoch@0.9.18 in the affected stable-version range. Initial admission has no accepted baseline. RustSec architecture [], OS [], function constraints {}; selected-host compiled inclusion and reachability are unproved and require explicit assessment. RustSec rust/std, rust/rustdoc and rust/cargo use distribution Rust release versions; GitHub Cargo package advisories use Cargo package 0.x versions, distinct from displayed Cargo 1.x versions."
+      },
+      {
+        "id": "RUSTSEC-2026-0247/unmaintained/bitmaps@2.1.0/cargo/aarch64-apple-darwin",
+        "source": {
+          "kind": "advisories",
+          "scope": "cargo/aarch64-apple-darwin"
+        },
+        "change": "unknown",
+        "exposure": "unknown",
+        "rationale": "unmaintained: source corpus contains bitmaps@2.1.0 in the affected stable-version range. Initial admission has no accepted baseline. RustSec architecture [], OS [], function constraints {}; selected-host compiled inclusion and reachability are unproved and require explicit assessment. RustSec rust/std, rust/rustdoc and rust/cargo use distribution Rust release versions; GitHub Cargo package advisories use Cargo package 0.x versions, distinct from displayed Cargo 1.x versions."
+      },
+      {
+        "id": "RUSTSEC-2026-0250/unmaintained/im-rc@15.1.0/cargo/aarch64-apple-darwin",
+        "source": {
+          "kind": "advisories",
+          "scope": "cargo/aarch64-apple-darwin"
+        },
+        "change": "unknown",
+        "exposure": "unknown",
+        "rationale": "unmaintained: source corpus contains im-rc@15.1.0 in the affected stable-version range. Initial admission has no accepted baseline. RustSec architecture [], OS [], function constraints {}; selected-host compiled inclusion and reachability are unproved and require explicit assessment. RustSec rust/std, rust/rustdoc and rust/cargo use distribution Rust release versions; GitHub Cargo package advisories use Cargo package 0.x versions, distinct from displayed Cargo 1.x versions."
+      },
+      {
+        "id": "RUSTSEC-2026-0251/unmaintained/sized-chunks@0.6.5/cargo/aarch64-apple-darwin",
+        "source": {
+          "kind": "advisories",
+          "scope": "cargo/aarch64-apple-darwin"
+        },
+        "change": "unknown",
+        "exposure": "unknown",
+        "rationale": "unmaintained: source corpus contains sized-chunks@0.6.5 in the affected stable-version range. Initial admission has no accepted baseline. RustSec architecture [], OS [], function constraints {}; selected-host compiled inclusion and reachability are unproved and require explicit assessment. RustSec rust/std, rust/rustdoc and rust/cargo use distribution Rust release versions; GitHub Cargo package advisories use Cargo package 0.x versions, distinct from displayed Cargo 1.x versions."
+      },
+      {
+        "id": "RUSTSEC-2026-0255/unsound/sized-chunks@0.6.5/cargo/aarch64-apple-darwin",
+        "source": {
+          "kind": "advisories",
+          "scope": "cargo/aarch64-apple-darwin"
+        },
+        "change": "unknown",
+        "exposure": "unknown",
+        "rationale": "unsound: source corpus contains sized-chunks@0.6.5 in the affected stable-version range. Initial admission has no accepted baseline. RustSec architecture [], OS [], function constraints {\"sized_chunks::Chunk::clear\": [\"<= 0.7.0\"], \"sized_chunks::Chunk::drop_left\": [\"<= 0.7.0\"], \"sized_chunks::Chunk::drop_right\": [\"<= 0.7.0\"], \"sized_chunks::InlineArray::clear\": [\"<= 0.7.0\"], \"sized_chunks::RingBuffer::clear\": [\"<= 0.7.0\"], \"sized_chunks::RingBuffer::drop_left\": [\"<= 0.7.0\"], \"sized_chunks::RingBuffer::drop_right\": [\"<= 0.7.0\"]}; selected-host compiled inclusion and reachability are unproved and require explicit assessment. RustSec rust/std, rust/rustdoc and rust/cargo use distribution Rust release versions; GitHub Cargo package advisories use Cargo package 0.x versions, distinct from displayed Cargo 1.x versions."
+      },
+      {
+        "id": "RUSTSEC-2026-0258/vulnerability/h2@0.4.13/cargo/aarch64-apple-darwin",
+        "source": {
+          "kind": "advisories",
+          "scope": "cargo/aarch64-apple-darwin"
+        },
+        "change": "unknown",
+        "exposure": "unknown",
+        "rationale": "vulnerability: source corpus contains h2@0.4.13 in the affected stable-version range. Initial admission has no accepted baseline. RustSec architecture [], OS [], function constraints {}; selected-host compiled inclusion and reachability are unproved and require explicit assessment. RustSec rust/std, rust/rustdoc and rust/cargo use distribution Rust release versions; GitHub Cargo package advisories use Cargo package 0.x versions, distinct from displayed Cargo 1.x versions."
+      },
+      {
+        "id": "RUSTSEC-2026-0285/vulnerability/rustls@0.23.36/cargo/aarch64-apple-darwin",
+        "source": {
+          "kind": "advisories",
+          "scope": "cargo/aarch64-apple-darwin"
+        },
+        "change": "unknown",
+        "exposure": "unknown",
+        "rationale": "vulnerability: source corpus contains rustls@0.23.36 in the affected stable-version range. Initial admission has no accepted baseline. RustSec architecture [], OS [], function constraints {}; selected-host compiled inclusion and reachability are unproved and require explicit assessment. RustSec rust/std, rust/rustdoc and rust/cargo use distribution Rust release versions; GitHub Cargo package advisories use Cargo package 0.x versions, distinct from displayed Cargo 1.x versions."
+      },
+      {
+        "id": "RUSTSEC-2026-0306/unsound/faster-hex@0.10.0/cargo/aarch64-apple-darwin",
+        "source": {
+          "kind": "advisories",
+          "scope": "cargo/aarch64-apple-darwin"
+        },
+        "change": "unknown",
+        "exposure": "unknown",
+        "rationale": "unsound: source corpus contains faster-hex@0.10.0 in the affected stable-version range. Initial admission has no accepted baseline. RustSec architecture [\"x86\", \"x86_64\"], OS [], function constraints {\"faster_hex::hex_decode_unchecked\": [\">= 0.3.0, < 0.10.1\"]}; selected-host compiled inclusion and reachability are unproved and require explicit assessment. RustSec rust/std, rust/rustdoc and rust/cargo use distribution Rust release versions; GitHub Cargo package advisories use Cargo package 0.x versions, distinct from displayed Cargo 1.x versions."
+      },
+      {
+        "id": "RUSTSEC-2026-0344/vulnerability/ruzstd@0.7.3/rustc/aarch64-apple-darwin",
+        "source": {
+          "kind": "advisories",
+          "scope": "rustc/aarch64-apple-darwin"
+        },
+        "change": "unknown",
+        "exposure": "unknown",
+        "rationale": "vulnerability: source corpus contains ruzstd@0.7.3 in the affected stable-version range. Initial admission has no accepted baseline. RustSec architecture [], OS [], function constraints {}; selected-host compiled inclusion and reachability are unproved and require explicit assessment. RustSec rust/std, rust/rustdoc and rust/cargo use distribution Rust release versions; GitHub Cargo package advisories use Cargo package 0.x versions, distinct from displayed Cargo 1.x versions."
+      },
+      {
+        "id": "RUSTSEC-2026-0344/vulnerability/ruzstd@0.8.2/rustc/aarch64-apple-darwin",
+        "source": {
+          "kind": "advisories",
+          "scope": "rustc/aarch64-apple-darwin"
+        },
+        "change": "unknown",
+        "exposure": "unknown",
+        "rationale": "vulnerability: source corpus contains ruzstd@0.8.2 in the affected stable-version range. Initial admission has no accepted baseline. RustSec architecture [], OS [], function constraints {}; selected-host compiled inclusion and reachability are unproved and require explicit assessment. RustSec rust/std, rust/rustdoc and rust/cargo use distribution Rust release versions; GitHub Cargo package advisories use Cargo package 0.x versions, distinct from displayed Cargo 1.x versions."
+      },
+      {
+        "id": "RUSTSEC-2026-0346/vulnerability/rustls@0.23.36/cargo/aarch64-apple-darwin",
+        "source": {
+          "kind": "advisories",
+          "scope": "cargo/aarch64-apple-darwin"
+        },
+        "change": "unknown",
+        "exposure": "unknown",
+        "rationale": "vulnerability: source corpus contains rustls@0.23.36 in the affected stable-version range. Initial admission has no accepted baseline. RustSec architecture [], OS [], function constraints {}; selected-host compiled inclusion and reachability are unproved and require explicit assessment. RustSec rust/std, rust/rustdoc and rust/cargo use distribution Rust release versions; GitHub Cargo package advisories use Cargo package 0.x versions, distinct from displayed Cargo 1.x versions."
+      },
+      {
+        "id": "RUSTSEC-2026-0348/vulnerability/rustls@0.23.36/cargo/aarch64-apple-darwin",
+        "source": {
+          "kind": "advisories",
+          "scope": "cargo/aarch64-apple-darwin"
+        },
+        "change": "unknown",
+        "exposure": "unknown",
+        "rationale": "vulnerability: source corpus contains rustls@0.23.36 in the affected stable-version range. Initial admission has no accepted baseline. RustSec architecture [], OS [], function constraints {}; selected-host compiled inclusion and reachability are unproved and require explicit assessment. RustSec rust/std, rust/rustdoc and rust/cargo use distribution Rust release versions; GitHub Cargo package advisories use Cargo package 0.x versions, distinct from displayed Cargo 1.x versions."
+      },
+      {
+        "id": "RUSTSEC-2026-0349/vulnerability/rustls@0.23.36/cargo/aarch64-apple-darwin",
+        "source": {
+          "kind": "advisories",
+          "scope": "cargo/aarch64-apple-darwin"
+        },
+        "change": "unknown",
+        "exposure": "unknown",
+        "rationale": "vulnerability: source corpus contains rustls@0.23.36 in the affected stable-version range. Initial admission has no accepted baseline. RustSec architecture [], OS [], function constraints {}; selected-host compiled inclusion and reachability are unproved and require explicit assessment. RustSec rust/std, rust/rustdoc and rust/cargo use distribution Rust release versions; GitHub Cargo package advisories use Cargo package 0.x versions, distinct from displayed Cargo 1.x versions."
+      },
+      {
+        "id": "RUSTSEC-2026-0374/unmaintained/basic-toml@0.1.10/rustc/aarch64-apple-darwin",
+        "source": {
+          "kind": "advisories",
+          "scope": "rustc/aarch64-apple-darwin"
+        },
+        "change": "unknown",
+        "exposure": "unknown",
+        "rationale": "unmaintained: source corpus contains basic-toml@0.1.10 in the affected stable-version range. Initial admission has no accepted baseline. RustSec architecture [], OS [], function constraints {}; selected-host compiled inclusion and reachability are unproved and require explicit assessment. RustSec rust/std, rust/rustdoc and rust/cargo use distribution Rust release versions; GitHub Cargo package advisories use Cargo package 0.x versions, distinct from displayed Cargo 1.x versions."
+      },
+      {
+        "id": "RUSTSEC-2026-0382/vulnerability/rustls-webpki@0.103.9/cargo/aarch64-apple-darwin",
+        "source": {
+          "kind": "advisories",
+          "scope": "cargo/aarch64-apple-darwin"
+        },
+        "change": "unknown",
+        "exposure": "unknown",
+        "rationale": "vulnerability: source corpus contains rustls-webpki@0.103.9 in the affected stable-version range. Initial admission has no accepted baseline. RustSec architecture [], OS [], function constraints {}; selected-host compiled inclusion and reachability are unproved and require explicit assessment. RustSec rust/std, rust/rustdoc and rust/cargo use distribution Rust release versions; GitHub Cargo package advisories use Cargo package 0.x versions, distinct from displayed Cargo 1.x versions."
+      },
+      {
+        "id": "RUSTSEC-2026-0386/unsound/tokio@1.49.0/cargo/aarch64-apple-darwin",
+        "source": {
+          "kind": "advisories",
+          "scope": "cargo/aarch64-apple-darwin"
+        },
+        "change": "unknown",
+        "exposure": "unknown",
+        "rationale": "unsound: source corpus contains tokio@1.49.0 in the affected stable-version range. Initial admission has no accepted baseline. RustSec architecture [], OS [], function constraints {\"tokio::io::unix::AsyncFd::new\": [\">= 0.3.2\"], \"tokio::io::unix::AsyncFd::try_new\": [\">= 1.37.0\"], \"tokio::io::unix::AsyncFd::try_with_interest\": [\">= 1.37.0\"], \"tokio::io::unix::AsyncFd::with_interest\": [\">= 0.3.2\"]}; selected-host compiled inclusion and reachability are unproved and require explicit assessment. RustSec rust/std, rust/rustdoc and rust/cargo use distribution Rust release versions; GitHub Cargo package advisories use Cargo package 0.x versions, distinct from displayed Cargo 1.x versions."
+      },
+      {
+        "id": "RUSTSEC-2026-0387/vulnerability/crypto-bigint@0.5.5/cargo/aarch64-apple-darwin",
+        "source": {
+          "kind": "advisories",
+          "scope": "cargo/aarch64-apple-darwin"
+        },
+        "change": "unknown",
+        "exposure": "unknown",
+        "rationale": "vulnerability: source corpus contains crypto-bigint@0.5.5 in the affected stable-version range. Initial admission has no accepted baseline. RustSec architecture [], OS [], function constraints {}; selected-host compiled inclusion and reachability are unproved and require explicit assessment. RustSec rust/std, rust/rustdoc and rust/cargo use distribution Rust release versions; GitHub Cargo package advisories use Cargo package 0.x versions, distinct from displayed Cargo 1.x versions."
+      },
+      {
+        "id": "RUSTSEC-2026-0414/vulnerability/pulldown-cmark@0.13.0/cargo/aarch64-apple-darwin",
+        "source": {
+          "kind": "advisories",
+          "scope": "cargo/aarch64-apple-darwin"
+        },
+        "change": "unknown",
+        "exposure": "unknown",
+        "rationale": "vulnerability: source corpus contains pulldown-cmark@0.13.0 in the affected stable-version range. Initial admission has no accepted baseline. RustSec architecture [], OS [], function constraints {}; selected-host compiled inclusion and reachability are unproved and require explicit assessment. RustSec rust/std, rust/rustdoc and rust/cargo use distribution Rust release versions; GitHub Cargo package advisories use Cargo package 0.x versions, distinct from displayed Cargo 1.x versions."
+      },
+      {
+        "id": "RUSTSEC-2026-0418/vulnerability/libz-sys@1.1.23/cargo/aarch64-apple-darwin",
+        "source": {
+          "kind": "advisories",
+          "scope": "cargo/aarch64-apple-darwin"
+        },
+        "change": "unknown",
+        "exposure": "unknown",
+        "rationale": "vulnerability: source corpus contains libz-sys@1.1.23 in the affected stable-version range. Initial admission has no accepted baseline. RustSec architecture [], OS [], function constraints {}; selected-host compiled inclusion and reachability are unproved and require explicit assessment. RustSec rust/std, rust/rustdoc and rust/cargo use distribution Rust release versions; GitHub Cargo package advisories use Cargo package 0.x versions, distinct from displayed Cargo 1.x versions."
+      },
+      {
+        "id": "RUSTSEC-2026-0418/vulnerability/libz-sys@1.1.23/rustc/aarch64-apple-darwin",
+        "source": {
+          "kind": "advisories",
+          "scope": "rustc/aarch64-apple-darwin"
+        },
+        "change": "unknown",
+        "exposure": "unknown",
+        "rationale": "vulnerability: source corpus contains libz-sys@1.1.23 in the affected stable-version range. Initial admission has no accepted baseline. RustSec architecture [], OS [], function constraints {}; selected-host compiled inclusion and reachability are unproved and require explicit assessment. RustSec rust/std, rust/rustdoc and rust/cargo use distribution Rust release versions; GitHub Cargo package advisories use Cargo package 0.x versions, distinct from displayed Cargo 1.x versions."
+      },
+      {
+        "id": "RUSTSEC-2026-0426/vulnerability/orion@0.17.12/cargo/aarch64-apple-darwin",
+        "source": {
+          "kind": "advisories",
+          "scope": "cargo/aarch64-apple-darwin"
+        },
+        "change": "unknown",
+        "exposure": "unknown",
+        "rationale": "vulnerability: source corpus contains orion@0.17.12 in the affected stable-version range. Initial admission has no accepted baseline. RustSec architecture [\"s390x\", \"x86\", \"x86_64\"], OS [], function constraints {}; selected-host compiled inclusion and reachability are unproved and require explicit assessment. RustSec rust/std, rust/rustdoc and rust/cargo use distribution Rust release versions; GitHub Cargo package advisories use Cargo package 0.x versions, distinct from displayed Cargo 1.x versions."
+      },
+      {
+        "id": "RUSTSEC-2026-0428/vulnerability/orion@0.17.12/cargo/aarch64-apple-darwin",
+        "source": {
+          "kind": "advisories",
+          "scope": "cargo/aarch64-apple-darwin"
+        },
+        "change": "unknown",
+        "exposure": "unknown",
+        "rationale": "vulnerability: source corpus contains orion@0.17.12 in the affected stable-version range. Initial admission has no accepted baseline. RustSec architecture [], OS [], function constraints {\"orion::hazardous::mac::blake2b::Blake2b::reset\": [\"< 0.17.16\", \"< 0.18.1\", \">= 0.12.0\"]}; selected-host compiled inclusion and reachability are unproved and require explicit assessment. RustSec rust/std, rust/rustdoc and rust/cargo use distribution Rust release versions; GitHub Cargo package advisories use Cargo package 0.x versions, distinct from displayed Cargo 1.x versions."
+      },
+      {
+        "id": "RUSTSEC-2026-0433/vulnerability/pulldown-cmark@0.13.0/cargo/aarch64-apple-darwin",
+        "source": {
+          "kind": "advisories",
+          "scope": "cargo/aarch64-apple-darwin"
+        },
+        "change": "unknown",
+        "exposure": "unknown",
+        "rationale": "vulnerability: source corpus contains pulldown-cmark@0.13.0 in the affected stable-version range. Initial admission has no accepted baseline. RustSec architecture [], OS [], function constraints {}; selected-host compiled inclusion and reachability are unproved and require explicit assessment. RustSec rust/std, rust/rustdoc and rust/cargo use distribution Rust release versions; GitHub Cargo package advisories use Cargo package 0.x versions, distinct from displayed Cargo 1.x versions."
+      },
+      {
+        "id": "RUSTSEC-2026-0441/unmaintained/pin-utils@0.1.0/cargo/aarch64-apple-darwin",
+        "source": {
+          "kind": "advisories",
+          "scope": "cargo/aarch64-apple-darwin"
+        },
+        "change": "unknown",
+        "exposure": "unknown",
+        "rationale": "unmaintained: source corpus contains pin-utils@0.1.0 in the affected stable-version range. Initial admission has no accepted baseline. RustSec architecture [], OS [], function constraints {}; selected-host compiled inclusion and reachability are unproved and require explicit assessment. RustSec rust/std, rust/rustdoc and rust/cargo use distribution Rust release versions; GitHub Cargo package advisories use Cargo package 0.x versions, distinct from displayed Cargo 1.x versions."
+      },
+      {
+        "id": "RUSTSEC-2026-0459/vulnerability/libsqlite3-sys@0.36.0/cargo/aarch64-apple-darwin",
+        "source": {
+          "kind": "advisories",
+          "scope": "cargo/aarch64-apple-darwin"
+        },
+        "change": "unknown",
+        "exposure": "unknown",
+        "rationale": "vulnerability: source corpus contains libsqlite3-sys@0.36.0 in the affected stable-version range. Initial admission has no accepted baseline. RustSec architecture [], OS [], function constraints {}; selected-host compiled inclusion and reachability are unproved and require explicit assessment. RustSec rust/std, rust/rustdoc and rust/cargo use distribution Rust release versions; GitHub Cargo package advisories use Cargo package 0.x versions, distinct from displayed Cargo 1.x versions."
+      },
+      {
+        "id": "RUSTSEC-2026-0463/vulnerability/openssl@0.10.75/cargo/aarch64-apple-darwin",
+        "source": {
+          "kind": "advisories",
+          "scope": "cargo/aarch64-apple-darwin"
+        },
+        "change": "unknown",
+        "exposure": "unknown",
+        "rationale": "vulnerability: source corpus contains openssl@0.10.75 in the affected stable-version range. Initial admission has no accepted baseline. RustSec architecture [], OS [], function constraints {\"openssl::aes::unwrap_key\": [\">= 0.10.24, < 0.10.78\"]}; selected-host compiled inclusion and reachability are unproved and require explicit assessment. RustSec rust/std, rust/rustdoc and rust/cargo use distribution Rust release versions; GitHub Cargo package advisories use Cargo package 0.x versions, distinct from displayed Cargo 1.x versions."
+      },
+      {
+        "id": "RUSTSEC-2026-0473/vulnerability/openssl@0.10.75/cargo/aarch64-apple-darwin",
+        "source": {
+          "kind": "advisories",
+          "scope": "cargo/aarch64-apple-darwin"
+        },
+        "change": "unknown",
+        "exposure": "unknown",
+        "rationale": "vulnerability: source corpus contains openssl@0.10.75 in the affected stable-version range. Initial admission has no accepted baseline. RustSec architecture [], OS [], function constraints {\"openssl::derive::Deriver::derive\": [\">= 0.9.27, < 0.10.78\"], \"openssl::pkey_ctx::PkeyCtxRef::derive\": [\">= 0.9.27, < 0.10.78\"]}; selected-host compiled inclusion and reachability are unproved and require explicit assessment. RustSec rust/std, rust/rustdoc and rust/cargo use distribution Rust release versions; GitHub Cargo package advisories use Cargo package 0.x versions, distinct from displayed Cargo 1.x versions."
+      },
+      {
+        "id": "RUSTSEC-2026-0474/vulnerability/openssl@0.10.75/cargo/aarch64-apple-darwin",
+        "source": {
+          "kind": "advisories",
+          "scope": "cargo/aarch64-apple-darwin"
+        },
+        "change": "unknown",
+        "exposure": "unknown",
+        "rationale": "vulnerability: source corpus contains openssl@0.10.75 in the affected stable-version range. Initial admission has no accepted baseline. RustSec architecture [], OS [], function constraints {\"openssl::x509::X509Ref::ocsp_responders\": [\">= 0.9.7, < 0.10.79\"]}; selected-host compiled inclusion and reachability are unproved and require explicit assessment. RustSec rust/std, rust/rustdoc and rust/cargo use distribution Rust release versions; GitHub Cargo package advisories use Cargo package 0.x versions, distinct from displayed Cargo 1.x versions."
+      },
+      {
+        "id": "RUSTSEC-2026-0475/vulnerability/openssl@0.10.75/cargo/aarch64-apple-darwin",
+        "source": {
+          "kind": "advisories",
+          "scope": "cargo/aarch64-apple-darwin"
+        },
+        "change": "unknown",
+        "exposure": "unknown",
+        "rationale": "vulnerability: source corpus contains openssl@0.10.75 in the affected stable-version range. Initial admission has no accepted baseline. RustSec architecture [], OS [], function constraints {\"openssl::md_ctx::MdCtxRef::digest_final\": [\">= 0.10.39, < 0.10.78\"]}; selected-host compiled inclusion and reachability are unproved and require explicit assessment. RustSec rust/std, rust/rustdoc and rust/cargo use distribution Rust release versions; GitHub Cargo package advisories use Cargo package 0.x versions, distinct from displayed Cargo 1.x versions."
+      },
+      {
+        "id": "RUSTSEC-2026-0476/vulnerability/openssl@0.10.75/cargo/aarch64-apple-darwin",
+        "source": {
+          "kind": "advisories",
+          "scope": "cargo/aarch64-apple-darwin"
+        },
+        "change": "unknown",
+        "exposure": "unknown",
+        "rationale": "vulnerability: source corpus contains openssl@0.10.75 in the affected stable-version range. Initial admission has no accepted baseline. RustSec architecture [], OS [], function constraints {\"openssl::cipher_ctx::CipherCtxRef::cipher_update\": [\">= 0.10.0, < 0.10.79\"], \"openssl::cipher_ctx::CipherCtxRef::cipher_update_vec\": [\">= 0.10.0, < 0.10.79\"], \"openssl::symm::Crypter::update\": [\">= 0.10.0, < 0.10.79\"]}; selected-host compiled inclusion and reachability are unproved and require explicit assessment. RustSec rust/std, rust/rustdoc and rust/cargo use distribution Rust release versions; GitHub Cargo package advisories use Cargo package 0.x versions, distinct from displayed Cargo 1.x versions."
+      },
+      {
+        "id": "RUSTSEC-2026-0477/vulnerability/openssl@0.10.75/cargo/aarch64-apple-darwin",
+        "source": {
+          "kind": "advisories",
+          "scope": "cargo/aarch64-apple-darwin"
+        },
+        "change": "unknown",
+        "exposure": "unknown",
+        "rationale": "vulnerability: source corpus contains openssl@0.10.75 in the affected stable-version range. Initial admission has no accepted baseline. RustSec architecture [], OS [], function constraints {\"openssl::cipher_ctx::CipherCtxRef::cipher_update_inplace\": [\">= 0.10.50, < 0.10.80\"]}; selected-host compiled inclusion and reachability are unproved and require explicit assessment. RustSec rust/std, rust/rustdoc and rust/cargo use distribution Rust release versions; GitHub Cargo package advisories use Cargo package 0.x versions, distinct from displayed Cargo 1.x versions."
+      },
+      {
+        "id": "RUSTSEC-2026-0478/vulnerability/openssl@0.10.75/cargo/aarch64-apple-darwin",
+        "source": {
+          "kind": "advisories",
+          "scope": "cargo/aarch64-apple-darwin"
+        },
+        "change": "unknown",
+        "exposure": "unknown",
+        "rationale": "vulnerability: source corpus contains openssl@0.10.75 in the affected stable-version range. Initial admission has no accepted baseline. RustSec architecture [], OS [], function constraints {\"openssl::ssl::SslContextBuilder::set_cookie_generate_cb\": [\">= 0.9.24, < 0.10.78\"], \"openssl::ssl::SslContextBuilder::set_psk_callback\": [\">= 0.9.24, < 0.10.78\"], \"openssl::ssl::SslContextBuilder::set_psk_client_callback\": [\">= 0.9.24, < 0.10.78\"], \"openssl::ssl::SslContextBuilder::set_psk_server_callback\": [\">= 0.9.24, < 0.10.78\"], \"openssl::ssl::SslContextBuilder::set_stateless_cookie_generate_cb\": [\">= 0.9.24, < 0.10.78\"]}; selected-host compiled inclusion and reachability are unproved and require explicit assessment. RustSec rust/std, rust/rustdoc and rust/cargo use distribution Rust release versions; GitHub Cargo package advisories use Cargo package 0.x versions, distinct from displayed Cargo 1.x versions."
+      },
+      {
+        "id": "RUSTSEC-2026-0479/vulnerability/openssl@0.10.75/cargo/aarch64-apple-darwin",
+        "source": {
+          "kind": "advisories",
+          "scope": "cargo/aarch64-apple-darwin"
+        },
+        "change": "unknown",
+        "exposure": "unknown",
+        "rationale": "vulnerability: source corpus contains openssl@0.10.75 in the affected stable-version range. Initial admission has no accepted baseline. RustSec architecture [], OS [], function constraints {}; selected-host compiled inclusion and reachability are unproved and require explicit assessment. RustSec rust/std, rust/rustdoc and rust/cargo use distribution Rust release versions; GitHub Cargo package advisories use Cargo package 0.x versions, distinct from displayed Cargo 1.x versions."
+      },
+      {
+        "id": "RUSTSEC-2026-0486/unsound/rustix@1.1.2/rustc/aarch64-apple-darwin",
+        "source": {
+          "kind": "advisories",
+          "scope": "rustc/aarch64-apple-darwin"
+        },
+        "change": "unknown",
+        "exposure": "unknown",
+        "rationale": "unsound: source corpus contains rustix@1.1.2 in the affected stable-version range. Initial admission has no accepted baseline. RustSec architecture [], OS [], function constraints {\"rustix::fs::fgetxattr\": [\">= 1.0.0, < 1.1.6\"], \"rustix::fs::flistxattr\": [\">= 1.0.0, < 1.1.6\"], \"rustix::fs::getxattr\": [\">= 1.0.0, < 1.1.6\"], \"rustix::fs::lgetxattr\": [\">= 1.0.0, < 1.1.6\"], \"rustix::fs::listxattr\": [\">= 1.0.0, < 1.1.6\"], \"rustix::fs::llistxattr\": [\">= 1.0.0, < 1.1.6\"]}; selected-host compiled inclusion and reachability are unproved and require explicit assessment. RustSec rust/std, rust/rustdoc and rust/cargo use distribution Rust release versions; GitHub Cargo package advisories use Cargo package 0.x versions, distinct from displayed Cargo 1.x versions."
+      },
+      {
+        "id": "RUSTSEC-2026-0486/unsound/rustix@1.1.3/cargo/aarch64-apple-darwin",
+        "source": {
+          "kind": "advisories",
+          "scope": "cargo/aarch64-apple-darwin"
+        },
+        "change": "unknown",
+        "exposure": "unknown",
+        "rationale": "unsound: source corpus contains rustix@1.1.3 in the affected stable-version range. Initial admission has no accepted baseline. RustSec architecture [], OS [], function constraints {\"rustix::fs::fgetxattr\": [\">= 1.0.0, < 1.1.6\"], \"rustix::fs::flistxattr\": [\">= 1.0.0, < 1.1.6\"], \"rustix::fs::getxattr\": [\">= 1.0.0, < 1.1.6\"], \"rustix::fs::lgetxattr\": [\">= 1.0.0, < 1.1.6\"], \"rustix::fs::listxattr\": [\">= 1.0.0, < 1.1.6\"], \"rustix::fs::llistxattr\": [\">= 1.0.0, < 1.1.6\"]}; selected-host compiled inclusion and reachability are unproved and require explicit assessment. RustSec rust/std, rust/rustdoc and rust/cargo use distribution Rust release versions; GitHub Cargo package advisories use Cargo package 0.x versions, distinct from displayed Cargo 1.x versions."
+      }
+    ],
+    "component_sources": [
+      {
+        "archive": {
+          "package": "cargo",
+          "target": "aarch64-apple-darwin",
+          "component": "cargo",
+          "root": "cargo-1.95.0-aarch64-apple-darwin",
+          "encoding": "xz",
+          "url": "https://static.rust-lang.org/dist/2026-04-16/cargo-1.95.0-aarch64-apple-darwin.tar.xz",
+          "sha256": "6c2ffed8e1ac9cf4dc9e80f282a869a6b237a153e7c55cca039d33de29d80aaf"
+        },
+        "rust_revision": "59807616e1fa2540724bfbac14d7976d7e4a3860",
+        "source_revision": "f2d3ce0bd7f24a49f8f72d9000448f8838c4e850",
+        "corpus": "cargo",
+        "source_paths": [
+          "Cargo.toml"
+        ],
+        "inventory_sha256": "d74009506ccab4e242b99aa56f7cbe7a6f6cd5525d78550c3e5659bc9d163a48",
+        "source_packages": {
+          "cargo": "0.96.0"
+        },
+        "documentation_assets": null,
+        "relationship": "Signed Cargo package version matched to its independently resolved Rust-tree Cargo gitlink and Cargo source inventory.",
+        "residual_coverage": "The represented source inventory includes optional/dev/build and other-host packages. Selected-host binary inclusion, reachability, complete native/LLVM dependency coverage and reproducible source-to-binary correspondence remain unproved; official security announcements and all represented source findings require explicit human assessment."
+      },
+      {
+        "archive": {
+          "package": "rust-std",
+          "target": "aarch64-apple-darwin",
+          "component": "rust-std-aarch64-apple-darwin",
+          "root": "rust-std-1.95.0-aarch64-apple-darwin",
+          "encoding": "xz",
+          "url": "https://static.rust-lang.org/dist/2026-04-16/rust-std-1.95.0-aarch64-apple-darwin.tar.xz",
+          "sha256": "9b30089b0f767cb91b2190ffec55a9beeb2a21a1405d8da0f664d7e09d08e6d8"
+        },
+        "rust_revision": "59807616e1fa2540724bfbac14d7976d7e4a3860",
+        "source_revision": "59807616e1fa2540724bfbac14d7976d7e4a3860",
+        "corpus": "standard-library",
+        "source_paths": [
+          "library/std/Cargo.toml"
+        ],
+        "inventory_sha256": "24ee3436f747470180e01a14bb9dea54eba96be15f65ab0407922a7132de84b4",
+        "source_packages": {
+          "std": "0.0.0"
+        },
+        "documentation_assets": null,
+        "relationship": "Signed Rust tree's std package manifest matched to the separate library source inventory.",
+        "residual_coverage": "The represented source inventory includes optional/dev/build and other-host packages. Selected-host binary inclusion, reachability, complete native/LLVM dependency coverage and reproducible source-to-binary correspondence remain unproved; official security announcements and all represented source findings require explicit human assessment."
+      },
+      {
+        "archive": {
+          "package": "rustc",
+          "target": "aarch64-apple-darwin",
+          "component": "rustc",
+          "root": "rustc-1.95.0-aarch64-apple-darwin",
+          "encoding": "xz",
+          "url": "https://static.rust-lang.org/dist/2026-04-16/rustc-1.95.0-aarch64-apple-darwin.tar.xz",
+          "sha256": "149e85a285b6eba58eb6c8bdf7deb1b93763890598e62cb635a712e3a8454f04"
+        },
+        "rust_revision": "59807616e1fa2540724bfbac14d7976d7e4a3860",
+        "source_revision": "59807616e1fa2540724bfbac14d7976d7e4a3860",
+        "corpus": "rust-root",
+        "source_paths": [
+          "compiler/rustc/Cargo.toml",
+          "src/librustdoc/Cargo.toml"
+        ],
+        "inventory_sha256": "39f8459deb4f613fd9b2afdf1b3eea4ff2ef36661b3f3f6ad560ca4584116f24",
+        "source_packages": {
+          "rustc-main": "0.0.0",
+          "rustdoc": "0.0.0"
+        },
+        "documentation_assets": null,
+        "relationship": "Rust-tree compiler and rustdoc package manifests matched to the Rust-root source inventory; rustdoc is shipped with rustc.",
+        "residual_coverage": "The represented source inventory includes optional/dev/build and other-host packages. Selected-host binary inclusion, reachability, complete native/LLVM dependency coverage and reproducible source-to-binary correspondence remain unproved; official security announcements and all represented source findings require explicit human assessment."
+      }
+    ]
+  },
+  "policy": {
+    "schema_version": 1,
+    "minimum_days": 7,
+    "override_reason": null
+  },
+  "assessment": {
+    "schema_version": 1,
+    "subject_id": "19c04d7b6ca65a2906bafe1bc15bf8d8297c924958187588d322098ee35403a5",
+    "evidence_id": "792cc7b62d3a9a12305ff6816d40243062f224281755d460e2b98d338209a993",
+    "policy_id": "7e61a9c6aa7832e6c3c81ebca4b3434f1b10fa7dc842d443b52db2fbd8c489d3",
+    "review": {
+      "path": "docs/dependency-reviews/toolchains/49ffd3d5c027bbc5669f58b174dd74c4b9fbe9f269417d35044cbaf7c5e1d68e/review.md",
+      "sha256": "244c2d4f3b86b95714e4de33dd46c2baed5446aa6c82d9106973a0d67bb07288"
+    },
+    "assessed_at": 1794539988,
+    "assessed_unknowns": [
+      {
+        "kind": "release-notes",
+        "scope": "distribution"
+      },
+      {
+        "kind": "security-announcements",
+        "scope": "distribution"
+      },
+      {
+        "kind": "source-identity",
+        "scope": "cargo/aarch64-apple-darwin"
+      },
+      {
+        "kind": "source-identity",
+        "scope": "rust-std/aarch64-apple-darwin"
+      },
+      {
+        "kind": "source-identity",
+        "scope": "rustc/aarch64-apple-darwin"
+      },
+      {
+        "kind": "advisories",
+        "scope": "cargo/aarch64-apple-darwin"
+      },
+      {
+        "kind": "advisories",
+        "scope": "rust-std/aarch64-apple-darwin"
+      },
+      {
+        "kind": "advisories",
+        "scope": "rustc/aarch64-apple-darwin"
+      }
+    ],
+    "assessed_findings": [
+      "RUSTSEC-2025-0119/unmaintained/number_prefix@0.4.0/rustc/aarch64-apple-darwin",
+      "RUSTSEC-2025-0141/unmaintained/bincode@1.3.3/rustc/aarch64-apple-darwin",
+      "RUSTSEC-2026-0008/unsound/git2@0.20.2/rustc/aarch64-apple-darwin",
+      "RUSTSEC-2026-0049/vulnerability/rustls-webpki@0.103.9/cargo/aarch64-apple-darwin",
+      "RUSTSEC-2026-0067/vulnerability/tar@0.4.44/rustc/aarch64-apple-darwin",
+      "RUSTSEC-2026-0068/vulnerability/tar@0.4.44/rustc/aarch64-apple-darwin",
+      "RUSTSEC-2026-0097/unsound/rand@0.8.5/rustc/aarch64-apple-darwin",
+      "RUSTSEC-2026-0097/unsound/rand@0.9.2/cargo/aarch64-apple-darwin",
+      "RUSTSEC-2026-0097/unsound/rand@0.9.2/rust-std/aarch64-apple-darwin",
+      "RUSTSEC-2026-0097/unsound/rand@0.9.2/rustc/aarch64-apple-darwin",
+      "RUSTSEC-2026-0098/vulnerability/rustls-webpki@0.103.9/cargo/aarch64-apple-darwin",
+      "RUSTSEC-2026-0099/vulnerability/rustls-webpki@0.103.9/cargo/aarch64-apple-darwin",
+      "RUSTSEC-2026-0103/vulnerability/thin-vec@0.2.14/rustc/aarch64-apple-darwin",
+      "RUSTSEC-2026-0104/vulnerability/rustls-webpki@0.103.9/cargo/aarch64-apple-darwin",
+      "RUSTSEC-2026-0183/unsound/git2@0.20.2/rustc/aarch64-apple-darwin",
+      "RUSTSEC-2026-0183/unsound/git2@0.20.4/cargo/aarch64-apple-darwin",
+      "RUSTSEC-2026-0184/unsound/git2@0.20.2/rustc/aarch64-apple-darwin",
+      "RUSTSEC-2026-0184/unsound/git2@0.20.4/cargo/aarch64-apple-darwin",
+      "RUSTSEC-2026-0186/unsound/memmap2@0.2.3/rustc/aarch64-apple-darwin",
+      "RUSTSEC-2026-0186/unsound/memmap2@0.9.9/cargo/aarch64-apple-darwin",
+      "RUSTSEC-2026-0190/unsound/anyhow@1.0.100/cargo/aarch64-apple-darwin",
+      "RUSTSEC-2026-0190/unsound/anyhow@1.0.100/rustc/aarch64-apple-darwin",
+      "RUSTSEC-2026-0202/unsound/cxx@1.0.188/rustc/aarch64-apple-darwin",
+      "RUSTSEC-2026-0204/vulnerability/crossbeam-epoch@0.9.18/cargo/aarch64-apple-darwin",
+      "RUSTSEC-2026-0204/vulnerability/crossbeam-epoch@0.9.18/rustc/aarch64-apple-darwin",
+      "RUSTSEC-2026-0247/unmaintained/bitmaps@2.1.0/cargo/aarch64-apple-darwin",
+      "RUSTSEC-2026-0250/unmaintained/im-rc@15.1.0/cargo/aarch64-apple-darwin",
+      "RUSTSEC-2026-0251/unmaintained/sized-chunks@0.6.5/cargo/aarch64-apple-darwin",
+      "RUSTSEC-2026-0255/unsound/sized-chunks@0.6.5/cargo/aarch64-apple-darwin",
+      "RUSTSEC-2026-0258/vulnerability/h2@0.4.13/cargo/aarch64-apple-darwin",
+      "RUSTSEC-2026-0285/vulnerability/rustls@0.23.36/cargo/aarch64-apple-darwin",
+      "RUSTSEC-2026-0306/unsound/faster-hex@0.10.0/cargo/aarch64-apple-darwin",
+      "RUSTSEC-2026-0344/vulnerability/ruzstd@0.7.3/rustc/aarch64-apple-darwin",
+      "RUSTSEC-2026-0344/vulnerability/ruzstd@0.8.2/rustc/aarch64-apple-darwin",
+      "RUSTSEC-2026-0346/vulnerability/rustls@0.23.36/cargo/aarch64-apple-darwin",
+      "RUSTSEC-2026-0348/vulnerability/rustls@0.23.36/cargo/aarch64-apple-darwin",
+      "RUSTSEC-2026-0349/vulnerability/rustls@0.23.36/cargo/aarch64-apple-darwin",
+      "RUSTSEC-2026-0374/unmaintained/basic-toml@0.1.10/rustc/aarch64-apple-darwin",
+      "RUSTSEC-2026-0382/vulnerability/rustls-webpki@0.103.9/cargo/aarch64-apple-darwin",
+      "RUSTSEC-2026-0386/unsound/tokio@1.49.0/cargo/aarch64-apple-darwin",
+      "RUSTSEC-2026-0387/vulnerability/crypto-bigint@0.5.5/cargo/aarch64-apple-darwin",
+      "RUSTSEC-2026-0414/vulnerability/pulldown-cmark@0.13.0/cargo/aarch64-apple-darwin",
+      "RUSTSEC-2026-0418/vulnerability/libz-sys@1.1.23/cargo/aarch64-apple-darwin",
+      "RUSTSEC-2026-0418/vulnerability/libz-sys@1.1.23/rustc/aarch64-apple-darwin",
+      "RUSTSEC-2026-0426/vulnerability/orion@0.17.12/cargo/aarch64-apple-darwin",
+      "RUSTSEC-2026-0428/vulnerability/orion@0.17.12/cargo/aarch64-apple-darwin",
+      "RUSTSEC-2026-0433/vulnerability/pulldown-cmark@0.13.0/cargo/aarch64-apple-darwin",
+      "RUSTSEC-2026-0441/unmaintained/pin-utils@0.1.0/cargo/aarch64-apple-darwin",
+      "RUSTSEC-2026-0459/vulnerability/libsqlite3-sys@0.36.0/cargo/aarch64-apple-darwin",
+      "RUSTSEC-2026-0463/vulnerability/openssl@0.10.75/cargo/aarch64-apple-darwin",
+      "RUSTSEC-2026-0473/vulnerability/openssl@0.10.75/cargo/aarch64-apple-darwin",
+      "RUSTSEC-2026-0474/vulnerability/openssl@0.10.75/cargo/aarch64-apple-darwin",
+      "RUSTSEC-2026-0475/vulnerability/openssl@0.10.75/cargo/aarch64-apple-darwin",
+      "RUSTSEC-2026-0476/vulnerability/openssl@0.10.75/cargo/aarch64-apple-darwin",
+      "RUSTSEC-2026-0477/vulnerability/openssl@0.10.75/cargo/aarch64-apple-darwin",
+      "RUSTSEC-2026-0478/vulnerability/openssl@0.10.75/cargo/aarch64-apple-darwin",
+      "RUSTSEC-2026-0479/vulnerability/openssl@0.10.75/cargo/aarch64-apple-darwin",
+      "RUSTSEC-2026-0486/unsound/rustix@1.1.2/rustc/aarch64-apple-darwin",
+      "RUSTSEC-2026-0486/unsound/rustix@1.1.3/cargo/aarch64-apple-darwin"
+    ]
+  }
+}

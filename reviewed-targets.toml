@@ -1,0 +1,24 @@
+[rust]
+
+[[rust.families]]
+name = "hosted-cfg-if-1.0.4"
+review_record = "docs/dependency-reviews/cfg-if-1.0.4.md"
+
+[rust.families.direct]
+cfg-if = "=1.0.4"
+
+[rust.families.resolved]
+cfg-if = { version = "1.0.4", checksum_sha256 = "9330f8b2ff13f34540b44e946ef35111825727b38d33286ef986142615121801" }
+
+
+
+[[rust.toolchains]]
+schema_version = 1
+subject_id = "19c04d7b6ca65a2906bafe1bc15bf8d8297c924958187588d322098ee35403a5"
+policy_id = "7e61a9c6aa7832e6c3c81ebca4b3434f1b10fa7dc842d443b52db2fbd8c489d3"
+assessment_id = "fd8e519f9cdb68f56f52522479bbcf042e4ff7f5fb14ab56dd5f26a7c18dc7a2"
+scope = "Rob-Morris/barbican-admission-rehearsal"
+review_record = "docs/dependency-reviews/toolchains/49ffd3d5c027bbc5669f58b174dd74c4b9fbe9f269417d35044cbaf7c5e1d68e/review.md"
+review_record_sha256 = "244c2d4f3b86b95714e4de33dd46c2baed5446aa6c82d9106973a0d67bb07288"
+evidence_record = "docs/dependency-reviews/toolchains/49ffd3d5c027bbc5669f58b174dd74c4b9fbe9f269417d35044cbaf7c5e1d68e/evidence.json"
+evidence_record_sha256 = "1d56800905b1e8862d35babaa73c6ca7d2395a18dea98fea9f057696e64a9820"
