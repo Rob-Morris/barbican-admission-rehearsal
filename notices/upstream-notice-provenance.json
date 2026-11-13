@@ -1,0 +1,440 @@
+[
+  {
+    "crate": "abscissa_core-0.9.0",
+    "repository": "iqlusioninc/abscissa",
+    "revision": "4bc14dee9827f8cef7ea270456536a73faae1525",
+    "revision_basis": "crate .cargo_vcs_info.json",
+    "files": [
+      {
+        "file": "third-party/abscissa_core-0.9.0/UPSTREAM-AUTHORS.md",
+        "source_url": "https://raw.githubusercontent.com/iqlusioninc/abscissa/4bc14dee9827f8cef7ea270456536a73faae1525/AUTHORS.md",
+        "sha256": "cde74d4770426c3f2ae1b78c7b06cd07a7fff60b195d90925d69645680b3ea91"
+      },
+      {
+        "file": "third-party/abscissa_core-0.9.0/UPSTREAM-LICENSE",
+        "source_url": "https://raw.githubusercontent.com/iqlusioninc/abscissa/4bc14dee9827f8cef7ea270456536a73faae1525/LICENSE",
+        "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+      }
+    ]
+  },
+  {
+    "crate": "abscissa_derive-0.9.0",
+    "repository": "iqlusioninc/abscissa",
+    "revision": "4bc14dee9827f8cef7ea270456536a73faae1525",
+    "revision_basis": "crate .cargo_vcs_info.json",
+    "files": [
+      {
+        "file": "third-party/abscissa_derive-0.9.0/UPSTREAM-AUTHORS.md",
+        "source_url": "https://raw.githubusercontent.com/iqlusioninc/abscissa/4bc14dee9827f8cef7ea270456536a73faae1525/AUTHORS.md",
+        "sha256": "cde74d4770426c3f2ae1b78c7b06cd07a7fff60b195d90925d69645680b3ea91"
+      },
+      {
+        "file": "third-party/abscissa_derive-0.9.0/UPSTREAM-LICENSE",
+        "source_url": "https://raw.githubusercontent.com/iqlusioninc/abscissa/4bc14dee9827f8cef7ea270456536a73faae1525/LICENSE",
+        "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+      }
+    ]
+  },
+  {
+    "crate": "async-compression-0.4.37",
+    "repository": "Nullus157/async-compression",
+    "revision": "59bb9f2aa64a89bb82efbc933fd789d32fa6371c",
+    "revision_basis": "crate .cargo_vcs_info.json",
+    "files": [
+      {
+        "file": "third-party/async-compression-0.4.37/UPSTREAM-LICENSE-APACHE",
+        "source_url": "https://raw.githubusercontent.com/Nullus157/async-compression/59bb9f2aa64a89bb82efbc933fd789d32fa6371c/LICENSE-APACHE",
+        "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+      },
+      {
+        "file": "third-party/async-compression-0.4.37/UPSTREAM-LICENSE-MIT",
+        "source_url": "https://raw.githubusercontent.com/Nullus157/async-compression/59bb9f2aa64a89bb82efbc933fd789d32fa6371c/LICENSE-MIT",
+        "sha256": "88d1e3160df48926ad3310a8ec5699b502889565908f1be7e77cd21282c7a709"
+      }
+    ]
+  },
+  {
+    "crate": "auditable-extract-0.3.5",
+    "repository": "rust-secure-code/cargo-auditable",
+    "revision": "4ccbc7276a6708561de827467475faec3c75b213",
+    "revision_basis": "crate .cargo_vcs_info.json",
+    "files": [
+      {
+        "file": "third-party/auditable-extract-0.3.5/UPSTREAM-LICENSE-APACHE",
+        "source_url": "https://raw.githubusercontent.com/rust-secure-code/cargo-auditable/4ccbc7276a6708561de827467475faec3c75b213/LICENSE-APACHE",
+        "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+      },
+      {
+        "file": "third-party/auditable-extract-0.3.5/UPSTREAM-LICENSE-MIT",
+        "source_url": "https://raw.githubusercontent.com/rust-secure-code/cargo-auditable/4ccbc7276a6708561de827467475faec3c75b213/LICENSE-MIT",
+        "sha256": "e3a8938c0304a5d418b6f7453c2f60fd6b590d486c798879063373e3acc94bf1"
+      }
+    ]
+  },
+  {
+    "crate": "auditable-info-0.10.0",
+    "repository": "rust-secure-code/cargo-auditable",
+    "revision": "65266184d1f37b3a04db5423108323c6e75fbe01",
+    "revision_basis": "crate .cargo_vcs_info.json",
+    "files": [
+      {
+        "file": "third-party/auditable-info-0.10.0/UPSTREAM-LICENSE-APACHE",
+        "source_url": "https://raw.githubusercontent.com/rust-secure-code/cargo-auditable/65266184d1f37b3a04db5423108323c6e75fbe01/LICENSE-APACHE",
+        "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+      },
+      {
+        "file": "third-party/auditable-info-0.10.0/UPSTREAM-LICENSE-MIT",
+        "source_url": "https://raw.githubusercontent.com/rust-secure-code/cargo-auditable/65266184d1f37b3a04db5423108323c6e75fbe01/LICENSE-MIT",
+        "sha256": "e3a8938c0304a5d418b6f7453c2f60fd6b590d486c798879063373e3acc94bf1"
+      }
+    ]
+  },
+  {
+    "crate": "auditable-serde-0.9.0",
+    "repository": "rust-secure-code/cargo-auditable",
+    "revision": "65266184d1f37b3a04db5423108323c6e75fbe01",
+    "revision_basis": "crate .cargo_vcs_info.json",
+    "files": [
+      {
+        "file": "third-party/auditable-serde-0.9.0/UPSTREAM-LICENSE-APACHE",
+        "source_url": "https://raw.githubusercontent.com/rust-secure-code/cargo-auditable/65266184d1f37b3a04db5423108323c6e75fbe01/LICENSE-APACHE",
+        "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+      },
+      {
+        "file": "third-party/auditable-serde-0.9.0/UPSTREAM-LICENSE-MIT",
+        "source_url": "https://raw.githubusercontent.com/rust-secure-code/cargo-auditable/65266184d1f37b3a04db5423108323c6e75fbe01/LICENSE-MIT",
+        "sha256": "e3a8938c0304a5d418b6f7453c2f60fd6b590d486c798879063373e3acc94bf1"
+      }
+    ]
+  },
+  {
+    "crate": "canonical-path-2.0.2",
+    "repository": "iqlusioninc/crates",
+    "revision": "cb5fbc5b1b2e0b658d45965fed2ee3f85401286c",
+    "revision_basis": "crate .cargo_vcs_info.json",
+    "files": [
+      {
+        "file": "third-party/canonical-path-2.0.2/UPSTREAM-AUTHORS.md",
+        "source_url": "https://raw.githubusercontent.com/iqlusioninc/crates/cb5fbc5b1b2e0b658d45965fed2ee3f85401286c/AUTHORS.md",
+        "sha256": "9d22a1117988b03c375db1d3aa093265782082cc7e0e299512e86c093f8ab85b"
+      },
+      {
+        "file": "third-party/canonical-path-2.0.2/UPSTREAM-LICENSE",
+        "source_url": "https://raw.githubusercontent.com/iqlusioninc/crates/cb5fbc5b1b2e0b658d45965fed2ee3f85401286c/LICENSE",
+        "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+      }
+    ]
+  },
+  {
+    "crate": "compression-codecs-0.4.36",
+    "repository": "Nullus157/async-compression",
+    "revision": "59bb9f2aa64a89bb82efbc933fd789d32fa6371c",
+    "revision_basis": "crate .cargo_vcs_info.json",
+    "files": [
+      {
+        "file": "third-party/compression-codecs-0.4.36/UPSTREAM-LICENSE-APACHE",
+        "source_url": "https://raw.githubusercontent.com/Nullus157/async-compression/59bb9f2aa64a89bb82efbc933fd789d32fa6371c/LICENSE-APACHE",
+        "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+      },
+      {
+        "file": "third-party/compression-codecs-0.4.36/UPSTREAM-LICENSE-MIT",
+        "source_url": "https://raw.githubusercontent.com/Nullus157/async-compression/59bb9f2aa64a89bb82efbc933fd789d32fa6371c/LICENSE-MIT",
+        "sha256": "88d1e3160df48926ad3310a8ec5699b502889565908f1be7e77cd21282c7a709"
+      }
+    ]
+  },
+  {
+    "crate": "compression-core-0.4.31",
+    "repository": "Nullus157/async-compression",
+    "revision": "2a28343998e67ea519b87005b9d295b134c00dd0",
+    "revision_basis": "crate .cargo_vcs_info.json",
+    "files": [
+      {
+        "file": "third-party/compression-core-0.4.31/UPSTREAM-LICENSE-APACHE",
+        "source_url": "https://raw.githubusercontent.com/Nullus157/async-compression/2a28343998e67ea519b87005b9d295b134c00dd0/LICENSE-APACHE",
+        "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+      },
+      {
+        "file": "third-party/compression-core-0.4.31/UPSTREAM-LICENSE-MIT",
+        "source_url": "https://raw.githubusercontent.com/Nullus157/async-compression/2a28343998e67ea519b87005b9d295b134c00dd0/LICENSE-MIT",
+        "sha256": "88d1e3160df48926ad3310a8ec5699b502889565908f1be7e77cd21282c7a709"
+      }
+    ]
+  },
+  {
+    "crate": "quitters-0.1.0",
+    "repository": "rustsec/rustsec",
+    "revision": "5c458487b2df2c9afefccd91b2813959e1da88d2",
+    "revision_basis": "crate .cargo_vcs_info.json",
+    "files": []
+  },
+  {
+    "crate": "rustls-platform-verifier-android-0.1.1",
+    "repository": "rustls/rustls-platform-verifier",
+    "revision": "6e4c1c4fbb9ec5355fcf505995724d6aa9ebf84b",
+    "revision_basis": "current upstream HEAD; archive has no vcs receipt",
+    "files": [
+      {
+        "file": "third-party/rustls-platform-verifier-android-0.1.1/UPSTREAM-LICENSE-APACHE",
+        "source_url": "https://raw.githubusercontent.com/rustls/rustls-platform-verifier/6e4c1c4fbb9ec5355fcf505995724d6aa9ebf84b/LICENSE-APACHE",
+        "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+      },
+      {
+        "file": "third-party/rustls-platform-verifier-android-0.1.1/UPSTREAM-LICENSE-MIT",
+        "source_url": "https://raw.githubusercontent.com/rustls/rustls-platform-verifier/6e4c1c4fbb9ec5355fcf505995724d6aa9ebf84b/LICENSE-MIT",
+        "sha256": "1c7cf76689c837a68ed8d704994e52a0f2940c087958f860d17f3186afbdcc0c"
+      }
+    ]
+  },
+  {
+    "crate": "valuable-0.1.1",
+    "repository": "tokio-rs/valuable",
+    "revision": "9efc29b6e58cef28f6566a47aa7e142a55fead77",
+    "revision_basis": "crate .cargo_vcs_info.json",
+    "files": [
+      {
+        "file": "third-party/valuable-0.1.1/UPSTREAM-LICENSE",
+        "source_url": "https://raw.githubusercontent.com/tokio-rs/valuable/9efc29b6e58cef28f6566a47aa7e142a55fead77/LICENSE",
+        "sha256": "ed60d479b8fd1f64e9cbc3de449a16a53ac1b3d1b6aeb9bf9d190a8e93061b44"
+      }
+    ]
+  },
+  {
+    "crate": "wasip2-1.0.2+wasi-0.2.9",
+    "repository": "bytecodealliance/wasi-rs",
+    "revision": "06ce201370fcde0d1b0d47cac8ecb1b0b312c9f9",
+    "revision_basis": "crate .cargo_vcs_info.json",
+    "files": [
+      {
+        "file": "third-party/wasip2-1.0.2+wasi-0.2.9/UPSTREAM-LICENSE-APACHE",
+        "source_url": "https://raw.githubusercontent.com/bytecodealliance/wasi-rs/06ce201370fcde0d1b0d47cac8ecb1b0b312c9f9/LICENSE-APACHE",
+        "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+      },
+      {
+        "file": "third-party/wasip2-1.0.2+wasi-0.2.9/UPSTREAM-LICENSE-Apache-2.0_WITH_LLVM-exception",
+        "source_url": "https://raw.githubusercontent.com/bytecodealliance/wasi-rs/06ce201370fcde0d1b0d47cac8ecb1b0b312c9f9/LICENSE-Apache-2.0_WITH_LLVM-exception",
+        "sha256": "268872b9816f90fd8e85db5a28d33f8150ebb8dd016653fb39ef1f94f2686bc5"
+      },
+      {
+        "file": "third-party/wasip2-1.0.2+wasi-0.2.9/UPSTREAM-LICENSE-MIT",
+        "source_url": "https://raw.githubusercontent.com/bytecodealliance/wasi-rs/06ce201370fcde0d1b0d47cac8ecb1b0b312c9f9/LICENSE-MIT",
+        "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3"
+      }
+    ]
+  },
+  {
+    "crate": "wasmparser-0.207.0",
+    "repository": "bytecodealliance/wasm-tools",
+    "revision": "1064f69c45a7b8a4d05ed1045713d6470be92236",
+    "revision_basis": "crate .cargo_vcs_info.json",
+    "files": [
+      {
+        "file": "third-party/wasmparser-0.207.0/UPSTREAM-LICENSE",
+        "source_url": "https://raw.githubusercontent.com/bytecodealliance/wasm-tools/1064f69c45a7b8a4d05ed1045713d6470be92236/LICENSE",
+        "sha256": "268872b9816f90fd8e85db5a28d33f8150ebb8dd016653fb39ef1f94f2686bc5"
+      }
+    ]
+  },
+  {
+    "crate": "winapi-i686-pc-windows-gnu-0.4.0",
+    "repository": "retep998/winapi-rs",
+    "revision": "5b1829956ef645f3c2f8236ba18bb198ca4c2468",
+    "revision_basis": "current upstream HEAD; archive has no vcs receipt",
+    "files": [
+      {
+        "file": "third-party/winapi-i686-pc-windows-gnu-0.4.0/UPSTREAM-LICENSE-APACHE",
+        "source_url": "https://raw.githubusercontent.com/retep998/winapi-rs/5b1829956ef645f3c2f8236ba18bb198ca4c2468/LICENSE-APACHE",
+        "sha256": "b40930bbcf80744c86c46a12bc9da056641d722716c378f5659b9e555ef833e1"
+      },
+      {
+        "file": "third-party/winapi-i686-pc-windows-gnu-0.4.0/UPSTREAM-LICENSE-MIT",
+        "source_url": "https://raw.githubusercontent.com/retep998/winapi-rs/5b1829956ef645f3c2f8236ba18bb198ca4c2468/LICENSE-MIT",
+        "sha256": "ce7bc3499fee93d5022ef430d5e4201e79a6d9154f3974e42f41349f0569e09b"
+      }
+    ]
+  },
+  {
+    "crate": "winapi-x86_64-pc-windows-gnu-0.4.0",
+    "repository": "retep998/winapi-rs",
+    "revision": "5b1829956ef645f3c2f8236ba18bb198ca4c2468",
+    "revision_basis": "current upstream HEAD; archive has no vcs receipt",
+    "files": [
+      {
+        "file": "third-party/winapi-x86_64-pc-windows-gnu-0.4.0/UPSTREAM-LICENSE-APACHE",
+        "source_url": "https://raw.githubusercontent.com/retep998/winapi-rs/5b1829956ef645f3c2f8236ba18bb198ca4c2468/LICENSE-APACHE",
+        "sha256": "b40930bbcf80744c86c46a12bc9da056641d722716c378f5659b9e555ef833e1"
+      },
+      {
+        "file": "third-party/winapi-x86_64-pc-windows-gnu-0.4.0/UPSTREAM-LICENSE-MIT",
+        "source_url": "https://raw.githubusercontent.com/retep998/winapi-rs/5b1829956ef645f3c2f8236ba18bb198ca4c2468/LICENSE-MIT",
+        "sha256": "ce7bc3499fee93d5022ef430d5e4201e79a6d9154f3974e42f41349f0569e09b"
+      }
+    ]
+  },
+  {
+    "crate": "wasip3-0.4.0+wasi-0.3.0-rc-2026-01-06",
+    "repository": "bytecodealliance/wasi-rs",
+    "revision": "06ce201370fcde0d1b0d47cac8ecb1b0b312c9f9",
+    "revision_basis": "crate .cargo_vcs_info.json",
+    "files": [
+      {
+        "file": "third-party/wasip3-0.4.0+wasi-0.3.0-rc-2026-01-06/UPSTREAM-LICENSE-APACHE",
+        "source_url": "https://raw.githubusercontent.com/bytecodealliance/wasi-rs/06ce201370fcde0d1b0d47cac8ecb1b0b312c9f9/LICENSE-APACHE",
+        "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+      },
+      {
+        "file": "third-party/wasip3-0.4.0+wasi-0.3.0-rc-2026-01-06/UPSTREAM-LICENSE-Apache-2.0_WITH_LLVM-exception",
+        "source_url": "https://raw.githubusercontent.com/bytecodealliance/wasi-rs/06ce201370fcde0d1b0d47cac8ecb1b0b312c9f9/LICENSE-Apache-2.0_WITH_LLVM-exception",
+        "sha256": "268872b9816f90fd8e85db5a28d33f8150ebb8dd016653fb39ef1f94f2686bc5"
+      },
+      {
+        "file": "third-party/wasip3-0.4.0+wasi-0.3.0-rc-2026-01-06/UPSTREAM-LICENSE-MIT",
+        "source_url": "https://raw.githubusercontent.com/bytecodealliance/wasi-rs/06ce201370fcde0d1b0d47cac8ecb1b0b312c9f9/LICENSE-MIT",
+        "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3"
+      }
+    ]
+  },
+  {
+    "crate": "wasm-encoder-0.244.0",
+    "repository": "bytecodealliance/wasm-tools",
+    "revision": "d4e317f22c3bace76cb3205003bcc34b4929037d",
+    "revision_basis": "crate .cargo_vcs_info.json",
+    "files": [
+      {
+        "file": "third-party/wasm-encoder-0.244.0/UPSTREAM-LICENSE-APACHE",
+        "source_url": "https://raw.githubusercontent.com/bytecodealliance/wasm-tools/d4e317f22c3bace76cb3205003bcc34b4929037d/LICENSE-APACHE",
+        "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+      },
+      {
+        "file": "third-party/wasm-encoder-0.244.0/UPSTREAM-LICENSE-Apache-2.0_WITH_LLVM-exception",
+        "source_url": "https://raw.githubusercontent.com/bytecodealliance/wasm-tools/d4e317f22c3bace76cb3205003bcc34b4929037d/LICENSE-Apache-2.0_WITH_LLVM-exception",
+        "sha256": "268872b9816f90fd8e85db5a28d33f8150ebb8dd016653fb39ef1f94f2686bc5"
+      },
+      {
+        "file": "third-party/wasm-encoder-0.244.0/UPSTREAM-LICENSE-MIT",
+        "source_url": "https://raw.githubusercontent.com/bytecodealliance/wasm-tools/d4e317f22c3bace76cb3205003bcc34b4929037d/LICENSE-MIT",
+        "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3"
+      }
+    ]
+  },
+  {
+    "crate": "wasmparser-0.244.0",
+    "repository": "bytecodealliance/wasm-tools",
+    "revision": "d4e317f22c3bace76cb3205003bcc34b4929037d",
+    "revision_basis": "crate .cargo_vcs_info.json",
+    "files": [
+      {
+        "file": "third-party/wasmparser-0.244.0/UPSTREAM-LICENSE-APACHE",
+        "source_url": "https://raw.githubusercontent.com/bytecodealliance/wasm-tools/d4e317f22c3bace76cb3205003bcc34b4929037d/LICENSE-APACHE",
+        "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+      },
+      {
+        "file": "third-party/wasmparser-0.244.0/UPSTREAM-LICENSE-Apache-2.0_WITH_LLVM-exception",
+        "source_url": "https://raw.githubusercontent.com/bytecodealliance/wasm-tools/d4e317f22c3bace76cb3205003bcc34b4929037d/LICENSE-Apache-2.0_WITH_LLVM-exception",
+        "sha256": "268872b9816f90fd8e85db5a28d33f8150ebb8dd016653fb39ef1f94f2686bc5"
+      },
+      {
+        "file": "third-party/wasmparser-0.244.0/UPSTREAM-LICENSE-MIT",
+        "source_url": "https://raw.githubusercontent.com/bytecodealliance/wasm-tools/d4e317f22c3bace76cb3205003bcc34b4929037d/LICENSE-MIT",
+        "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3"
+      }
+    ]
+  },
+  {
+    "crate": "wit-component-0.244.0",
+    "repository": "bytecodealliance/wasm-tools",
+    "revision": "d4e317f22c3bace76cb3205003bcc34b4929037d",
+    "revision_basis": "crate .cargo_vcs_info.json",
+    "files": [
+      {
+        "file": "third-party/wit-component-0.244.0/UPSTREAM-LICENSE-APACHE",
+        "source_url": "https://raw.githubusercontent.com/bytecodealliance/wasm-tools/d4e317f22c3bace76cb3205003bcc34b4929037d/LICENSE-APACHE",
+        "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+      },
+      {
+        "file": "third-party/wit-component-0.244.0/UPSTREAM-LICENSE-Apache-2.0_WITH_LLVM-exception",
+        "source_url": "https://raw.githubusercontent.com/bytecodealliance/wasm-tools/d4e317f22c3bace76cb3205003bcc34b4929037d/LICENSE-Apache-2.0_WITH_LLVM-exception",
+        "sha256": "268872b9816f90fd8e85db5a28d33f8150ebb8dd016653fb39ef1f94f2686bc5"
+      },
+      {
+        "file": "third-party/wit-component-0.244.0/UPSTREAM-LICENSE-MIT",
+        "source_url": "https://raw.githubusercontent.com/bytecodealliance/wasm-tools/d4e317f22c3bace76cb3205003bcc34b4929037d/LICENSE-MIT",
+        "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3"
+      }
+    ]
+  },
+  {
+    "crate": "wit-parser-0.244.0",
+    "repository": "bytecodealliance/wasm-tools",
+    "revision": "d4e317f22c3bace76cb3205003bcc34b4929037d",
+    "revision_basis": "crate .cargo_vcs_info.json",
+    "files": [
+      {
+        "file": "third-party/wit-parser-0.244.0/UPSTREAM-LICENSE-APACHE",
+        "source_url": "https://raw.githubusercontent.com/bytecodealliance/wasm-tools/d4e317f22c3bace76cb3205003bcc34b4929037d/LICENSE-APACHE",
+        "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+      },
+      {
+        "file": "third-party/wit-parser-0.244.0/UPSTREAM-LICENSE-Apache-2.0_WITH_LLVM-exception",
+        "source_url": "https://raw.githubusercontent.com/bytecodealliance/wasm-tools/d4e317f22c3bace76cb3205003bcc34b4929037d/LICENSE-Apache-2.0_WITH_LLVM-exception",
+        "sha256": "268872b9816f90fd8e85db5a28d33f8150ebb8dd016653fb39ef1f94f2686bc5"
+      },
+      {
+        "file": "third-party/wit-parser-0.244.0/UPSTREAM-LICENSE-MIT",
+        "source_url": "https://raw.githubusercontent.com/bytecodealliance/wasm-tools/d4e317f22c3bace76cb3205003bcc34b4929037d/LICENSE-MIT",
+        "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3"
+      }
+    ]
+  },
+  {
+    "crate": "bitfields-1.0.3",
+    "repository": "gregorygaines/bitfields-rs",
+    "revision": "a3c3d994c87c4f9cab566b3bbb5eb9bd1b2a9a98",
+    "revision_basis": "crate .cargo_vcs_info.json",
+    "files": [
+      {
+        "file": "third-party/bitfields-1.0.3/UPSTREAM-LICENSE",
+        "source_url": "https://raw.githubusercontent.com/gregorygaines/bitfields-rs/a3c3d994c87c4f9cab566b3bbb5eb9bd1b2a9a98/LICENSE",
+        "sha256": "20e54144e38eee8d67e970ab43fd4f124519931090ac015be8c7ff1a6b4a5f88"
+      }
+    ]
+  },
+  {
+    "crate": "bitfields-impl-1.0.3",
+    "repository": "gregorygaines/bitfields-rs",
+    "revision": "a3c3d994c87c4f9cab566b3bbb5eb9bd1b2a9a98",
+    "revision_basis": "crate .cargo_vcs_info.json",
+    "files": [
+      {
+        "file": "third-party/bitfields-impl-1.0.3/UPSTREAM-LICENSE",
+        "source_url": "https://raw.githubusercontent.com/gregorygaines/bitfields-rs/a3c3d994c87c4f9cab566b3bbb5eb9bd1b2a9a98/LICENSE",
+        "sha256": "20e54144e38eee8d67e970ab43fd4f124519931090ac015be8c7ff1a6b4a5f88"
+      }
+    ]
+  },
+  {
+    "crate": "crc24-0.1.6",
+    "repository": "sellibitze/crc24-rs",
+    "revision": "f565288a93806a0202a9c5d194db80dc1dc5a7fd",
+    "revision_basis": "current upstream HEAD; archive has no vcs receipt",
+    "files": [
+      {
+        "file": "third-party/crc24-0.1.6/UPSTREAM-LICENSE-APACHE",
+        "source_url": "https://raw.githubusercontent.com/sellibitze/crc24-rs/f565288a93806a0202a9c5d194db80dc1dc5a7fd/LICENSE-APACHE",
+        "sha256": "b40930bbcf80744c86c46a12bc9da056641d722716c378f5659b9e555ef833e1"
+      },
+      {
+        "file": "third-party/crc24-0.1.6/UPSTREAM-LICENSE-MIT",
+        "source_url": "https://raw.githubusercontent.com/sellibitze/crc24-rs/f565288a93806a0202a9c5d194db80dc1dc5a7fd/LICENSE-MIT",
+        "sha256": "44211bdaa21e5ba423e717d1afdcb4752f0277f5fcc5dc5a5dad1fd351624e24"
+      }
+    ]
+  },
+  {
+    "crate": "cx448-0.1.1",
+    "repository": "dignifiedquire/cx448",
+    "revision": "58785c9ea154f646d03ccec4185f0a1ffa1c67e5",
+    "revision_basis": "crate .cargo_vcs_info.json",
+    "files": []
+  }
+]

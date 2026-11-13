@@ -1,0 +1,32 @@
+[
+  {
+    "crate": "cx448-0.1.1",
+    "source_url": "https://raw.githubusercontent.com/RustCrypto/elliptic-curves/9c61da6d9de4434d68cb81b8b832c410c645b13e/ed448-goldilocks/LICENSE-APACHE",
+    "sha256": "a9040321c3712d8fd0b09cf52b17445de04a23a10165049ae187cd39e5c86be5",
+    "file": "third-party/cx448-0.1.1/RustCrypto-ed448-goldilocks--LICENSE-APACHE"
+  },
+  {
+    "crate": "cx448-0.1.1",
+    "source_url": "https://raw.githubusercontent.com/RustCrypto/elliptic-curves/9c61da6d9de4434d68cb81b8b832c410c645b13e/ed448-goldilocks/LICENSE-MIT",
+    "sha256": "30a63d298eb87c35ef7442651a49d953c1f844e0d8dd4a1bca79e2892c6daa69",
+    "file": "third-party/cx448-0.1.1/RustCrypto-ed448-goldilocks--LICENSE-MIT"
+  },
+  {
+    "crate": "cx448-0.1.1",
+    "source_url": "https://raw.githubusercontent.com/pornin/crrl/4cc7cbbe8796ee8d459b815d81318603279879e4/LICENSE",
+    "sha256": "d06f9a7ebc5b45b87679dd1804eb3f0ed3b21df434f3289cbea66e43a3866ae6",
+    "file": "third-party/cx448-0.1.1/pornin-LICENSE"
+  },
+  {
+    "crate": "quitters-0.1.0",
+    "source_url": "https://raw.githubusercontent.com/rustsec/rustsec/5c458487b2df2c9afefccd91b2813959e1da88d2/rustsec/LICENSE-MIT",
+    "sha256": "8ca90a0a107145172a45a9b87af4468aed46e4118e7154833c57a02d79d27a5e",
+    "file": "third-party/quitters-0.1.0/UPSTREAM-RUSTSEC-LICENSE-MIT"
+  },
+  {
+    "crate": "quitters-0.1.0",
+    "source_url": "https://raw.githubusercontent.com/rustsec/rustsec/5c458487b2df2c9afefccd91b2813959e1da88d2/rustsec/LICENSE-APACHE",
+    "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+    "file": "third-party/quitters-0.1.0/UPSTREAM-RUSTSEC-LICENSE-APACHE"
+  }
+]

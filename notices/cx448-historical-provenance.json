@@ -1,0 +1,31 @@
+{
+  "note": "PR1121 actual head plus predecessor snapshots at/before cx448 source commit, Ed448 origin snapshot at/before PR creation. Time adjacency is not proof of exact copied commit.",
+  "cx448_commit_date": "2025-04-10T21:12:23Z",
+  "files": [
+    {
+      "source_url": "https://raw.githubusercontent.com/RustCrypto/elliptic-curves/363ed9dc5a8d2184d6e96927755c958ed7480e6b/ed448/Cargo.toml",
+      "sha256": "cd787c0bfeebe47163a0accc1e668e322d0ac13e0698e173ab9c4032f5fecb03",
+      "file": "third-party/cx448-0.1.1/HISTORICAL-PR1121-ed448--Cargo.toml"
+    },
+    {
+      "source_url": "https://raw.githubusercontent.com/crate-crypto/x448/b134ae68d1181adc1b0f05eba6ccfdcc9c9905a4/Cargo.toml",
+      "sha256": "51d5bc98d3b7ea412543e76d198054b47ebff0519a13f9c8ad5ad3326e1febf7",
+      "file": "third-party/cx448-0.1.1/HISTORICAL-crate-crypto-Cargo.toml"
+    },
+    {
+      "source_url": "https://raw.githubusercontent.com/pornin/crrl/4cc7cbbe8796ee8d459b815d81318603279879e4/Cargo.toml",
+      "sha256": "5dd7b983f6b2cd6a540007a1b1a5fe55dbc6e77770da4b166aa3afd8066b7636",
+      "file": "third-party/cx448-0.1.1/HISTORICAL-pornin-Cargo.toml"
+    },
+    {
+      "source_url": "https://raw.githubusercontent.com/pornin/crrl/4cc7cbbe8796ee8d459b815d81318603279879e4/LICENSE",
+      "sha256": "d06f9a7ebc5b45b87679dd1804eb3f0ed3b21df434f3289cbea66e43a3866ae6",
+      "file": "third-party/cx448-0.1.1/HISTORICAL-pornin-LICENSE"
+    },
+    {
+      "source_url": "https://raw.githubusercontent.com/mikelodder7/Ed448-Goldilocks/99e98c82e036981ce317184a53a30de45b5bd2a5/Cargo.toml",
+      "sha256": "44b41db9128510001b4ddc9f3228c513d7671d1931815c7bb6ba02e66e3ba9c3",
+      "file": "third-party/cx448-0.1.1/HISTORICAL-mikelodder7-Cargo.toml"
+    }
+  ]
+}

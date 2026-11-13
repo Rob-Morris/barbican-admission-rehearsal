@@ -1,0 +1,12 @@
+{
+  "binary_sha256": "54b6742984ec6c5a16a84baf4d8951475b3ddb7b147923483d88e799942975c1",
+  "size": 10892752,
+  "source_commit": "fe7614796ad3f17c310017396f176e0dfcbbb6a7",
+  "version": "0.41.1",
+  "build": "cargo build --release --locked -p cargo-barbican",
+  "build_log_sha256": "65d866bd39d3d58434a08e4816c3fca7c670e064b4147f756ca163df24e36915",
+  "lock_sha256": "4de56f69cfce17f478a3dcc5b25bbd9f63c9c79b0fc5465aaddc14015041a4cc",
+  "target": "aarch64-apple-darwin",
+  "purpose": "Trusted applying fixture for isolated hosted rehearsal; no product release push or normal local installation",
+  "source_availability": "Locally reviewed maintainer dev commit; this rehearsal does not publish or advertise a product release tag. Existing supplier graph uncertainty retained in notices."
+}
