@@ -10,6 +10,6 @@ cfg_if::cfg_if! {
 mod tests {
     #[test]
     fn harmless_platform_selection() {
-        assert_eq!(super::selected_platform(), "macos");
+        assert_eq!(super::selected_platform(), "intentional-hosted-refusal");
     }
 }
