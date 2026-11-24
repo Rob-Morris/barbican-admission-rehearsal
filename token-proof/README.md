@@ -1,0 +1,1 @@
+Inert metadata-only fixture for a genuine Dependabot PR token-context witness. The proof workflow never builds or executes this source/dependency. Existing admission controller and protected tags remain unchanged.
