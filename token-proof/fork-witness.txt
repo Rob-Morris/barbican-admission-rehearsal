@@ -1,0 +1,2 @@
+Harmless fork-only marker for the approved read-only token context proof.
+The workflow verifies fixed inert upstream data and never executes it.
